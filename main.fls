@@ -67,6 +67,8 @@ INPUT C:\MiKTeX\tex\latex\float\float.sty
 INPUT C:\MiKTeX\tex\latex\float\float.sty
 INPUT C:\MiKTeX\tex\latex\tools\array.sty
 INPUT C:\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\MiKTeX\tex\latex\multirow\multirow.sty
 INPUT C:\MiKTeX\tex\latex\tocbibind\tocbibind.sty
 INPUT C:\MiKTeX\tex\latex\tocbibind\tocbibind.sty
 INPUT C:\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
@@ -283,10 +285,71 @@ INPUT C:\MiKTeX\tex\latex\microtype\microtype-pdftex.def
 INPUT C:\MiKTeX\tex\latex\microtype\microtype.cfg
 INPUT C:\MiKTeX\tex\latex\microtype\microtype.cfg
 INPUT C:\MiKTeX\tex\latex\microtype\microtype.cfg
+INPUT C:\MiKTeX\tex\latex\tcolorbox\tcolorbox.sty
+INPUT C:\MiKTeX\tex\latex\tcolorbox\tcolorbox.sty
+INPUT C:\MiKTeX\tex\latex\tools\verbatim.sty
+INPUT C:\MiKTeX\tex\latex\tools\verbatim.sty
+INPUT C:\MiKTeX\tex\latex\environ\environ.sty
+INPUT C:\MiKTeX\tex\latex\environ\environ.sty
+INPUT C:\MiKTeX\tex\latex\trimspaces\trimspaces.sty
+INPUT C:\MiKTeX\tex\latex\trimspaces\trimspaces.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\arabtex.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\arabtex.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\aconfig.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\arabaux.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\arabaux.sty
 INPUT C:\MiKTeX\tex\latex\lm\t1lmr.fd
 INPUT C:\MiKTeX\tex\latex\lm\t1lmr.fd
 INPUT C:\MiKTeX\tex\latex\lm\t1lmr.fd
 INPUT C:\MiKTeX\fonts\tfm\public\lm\ec-lmr10.tfm
+INPUT C:\MiKTeX\fonts\tfm\public\lm\ec-lmri10.tfm
+INPUT C:\MiKTeX\tex\latex\arabtex\acmd.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\acmd.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\afonts.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\afonts.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\afonts2.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\afonts2.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\ascan.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\ascan.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\aparse.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\aparse.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\awrite.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\awrite.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\xarbsymb.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\xarbsymb.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\arabskel.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\arabskel.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\xarbskel.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\xarbskel.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\aboxes.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\aboxes.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\arabtoks.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\arabtoks.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\arabchrs.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\arabchrs.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\aligs.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\aligs.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\aoutput.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\aoutput.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\abidir.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\abidir.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\atrans.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\atrans.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\alatex.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\alatex.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\afoot.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\afoot.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\abjad.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\abjad.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\apatch.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\apatch.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\alists.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\alists.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\asect.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\asect.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\atabg.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\atabg.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\alocal.sty
 INPUT C:\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT .\main.aux
@@ -318,6 +381,8 @@ INPUT C:\MiKTeX\tex\latex\graphics\lscape.sty
 INPUT C:\MiKTeX\tex\latex\microtype\mt-cmr.cfg
 INPUT C:\MiKTeX\tex\latex\microtype\mt-cmr.cfg
 INPUT C:\MiKTeX\tex\latex\microtype\mt-cmr.cfg
+INPUT C:\MiKTeX\tex\latex\arabtex\apatch.sty
+INPUT C:\MiKTeX\tex\latex\arabtex\alocal.sty
 INPUT .\Page1.tex
 INPUT .\Page1.tex
 INPUT .\Page1.tex
@@ -340,17 +405,17 @@ INPUT .\chap1.images\digidlogo.png
 INPUT .\chap1.images\digidlogo.png
 INPUT .\chap1.images\digidlogo.png
 INPUT C:\MiKTeX\fonts\tfm\public\lm\ec-lmr9.tfm
-INPUT .\chap1.images\binomi.jpg
-INPUT .\chap1.images\binomi.jpg
-INPUT .\chap1.images\binomi.jpg
-INPUT .\chap1.images\binomi.jpg
-INPUT .\chap1.images\binomi.jpg
-INPUT .\chap1.images\binomi.jpg
-INPUT .\chap1.images\binomi.jpg
-INPUT .\chap1.images\binomi.jpg
-INPUT .\chap1.images\binomi.jpg
-INPUT .\chap1.images\binomi.jpg
-INPUT .\chap1.images\binomi.jpg
+INPUT .\chap1.images\ATTESTATION.png
+INPUT .\chap1.images\ATTESTATION.png
+INPUT .\chap1.images\ATTESTATION.png
+INPUT .\chap1.images\ATTESTATION.png
+INPUT .\chap1.images\ATTESTATION.png
+INPUT .\chap1.images\ATTESTATION.png
+INPUT .\chap1.images\ATTESTATION.png
+INPUT .\chap1.images\ATTESTATION.png
+INPUT .\chap1.images\ATTESTATION.png
+INPUT .\chap1.images\ATTESTATION.png
+INPUT .\chap1.images\ATTESTATION.png
 INPUT C:\Users\itsba\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\MiKTeX\fonts\enc\dvips\lm\lm-ec.enc
 INPUT C:\MiKTeX\fonts\tfm\public\lm\ec-lmr17.tfm
@@ -407,6 +472,9 @@ INPUT .\main.lot
 INPUT .\main.lot
 INPUT main.lot
 OUTPUT main.lot
+INPUT .\acronymes.tex
+INPUT .\acronymes.tex
+INPUT acronymes.tex
 INPUT .\Dedicace.tex
 INPUT .\Dedicace.tex
 INPUT .\Dedicace.tex
@@ -426,8 +494,8 @@ INPUT .\chap1.tex
 INPUT .\chap1.tex
 INPUT chap1.tex
 INPUT C:\MiKTeX\fonts\tfm\public\lm\ec-lmr17.tfm
-INPUT C:\MiKTeX\fonts\tfm\public\lm\ec-lmr12.tfm
 INPUT C:\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
+INPUT C:\MiKTeX\fonts\tfm\public\lm\ec-lmr12.tfm
 INPUT .\chap1.images\digidlogo.png
 INPUT .\chap1.images\digidlogo.png
 INPUT .\chap1.images\digidlogo.png
@@ -449,21 +517,21 @@ INPUT .\chap1.images\digid activités.png
 INPUT .\chap1.images\digid activités.png
 INPUT .\chap1.images\digid activités.png
 INPUT .\chap1.images\digid activités.png
-INPUT .\chap1.images\scrum-process-slide2_2.png
-INPUT .\chap1.images\scrum-process-slide2_2.png
-INPUT .\chap1.images\scrum-process-slide2_2.png
-INPUT .\chap1.images\scrum-process-slide2_2.png
-INPUT .\chap1.images\scrum-process-slide2_2.png
-INPUT .\chap1.images\scrum-process-slide2_2.png
-INPUT .\chap1.images\scrum-process-slide2_2.png
-INPUT .\chap1.images\UML.png
-INPUT .\chap1.images\UML.png
-INPUT .\chap1.images\UML.png
-INPUT .\chap1.images\UML.png
-INPUT .\chap1.images\UML.png
-INPUT .\chap1.images\UML.png
-INPUT .\chap1.images\UML.png
 INPUT C:\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
+INPUT .\chap1.images\scrum-process-slide2_2.png
+INPUT .\chap1.images\scrum-process-slide2_2.png
+INPUT .\chap1.images\scrum-process-slide2_2.png
+INPUT .\chap1.images\scrum-process-slide2_2.png
+INPUT .\chap1.images\scrum-process-slide2_2.png
+INPUT .\chap1.images\scrum-process-slide2_2.png
+INPUT .\chap1.images\scrum-process-slide2_2.png
+INPUT .\chap1.images\UML.png
+INPUT .\chap1.images\UML.png
+INPUT .\chap1.images\UML.png
+INPUT .\chap1.images\UML.png
+INPUT .\chap1.images\UML.png
+INPUT .\chap1.images\UML.png
+INPUT .\chap1.images\UML.png
 INPUT .\chap1.images\java.jpg
 INPUT .\chap1.images\java.jpg
 INPUT .\chap1.images\java.jpg
@@ -485,6 +553,13 @@ INPUT .\chap1.images\MySQL.png
 INPUT .\chap1.images\MySQL.png
 INPUT .\chap1.images\MySQL.png
 INPUT .\chap1.images\MySQL.png
+INPUT .\chap1.images\firebase.png
+INPUT .\chap1.images\firebase.png
+INPUT .\chap1.images\firebase.png
+INPUT .\chap1.images\firebase.png
+INPUT .\chap1.images\firebase.png
+INPUT .\chap1.images\firebase.png
+INPUT .\chap1.images\firebase.png
 INPUT .\chap1.images\reactjs_logo.png
 INPUT .\chap1.images\reactjs_logo.png
 INPUT .\chap1.images\reactjs_logo.png
@@ -499,6 +574,13 @@ INPUT .\chap1.images\Node_logo_NodeJS.png
 INPUT .\chap1.images\Node_logo_NodeJS.png
 INPUT .\chap1.images\Node_logo_NodeJS.png
 INPUT .\chap1.images\Node_logo_NodeJS.png
+INPUT .\chap1.images\flask.png
+INPUT .\chap1.images\flask.png
+INPUT .\chap1.images\flask.png
+INPUT .\chap1.images\flask.png
+INPUT .\chap1.images\flask.png
+INPUT .\chap1.images\flask.png
+INPUT .\chap1.images\flask.png
 INPUT .\chap1.images\rest-api-flow.png
 INPUT .\chap1.images\rest-api-flow.png
 INPUT .\chap1.images\rest-api-flow.png
@@ -548,13 +630,6 @@ INPUT .\chap1.images\Slack.logo.png
 INPUT .\chap1.images\Slack.logo.png
 INPUT .\chap1.images\Slack.logo.png
 INPUT .\chap1.images\Slack.logo.png
-INPUT .\chap1.images\material-ui-logo.png
-INPUT .\chap1.images\material-ui-logo.png
-INPUT .\chap1.images\material-ui-logo.png
-INPUT .\chap1.images\material-ui-logo.png
-INPUT .\chap1.images\material-ui-logo.png
-INPUT .\chap1.images\material-ui-logo.png
-INPUT .\chap1.images\material-ui-logo.png
 INPUT .\chap1.images\vismelogo.jpg
 INPUT .\chap1.images\vismelogo.jpg
 INPUT .\chap1.images\vismelogo.jpg
@@ -562,6 +637,13 @@ INPUT .\chap1.images\vismelogo.jpg
 INPUT .\chap1.images\vismelogo.jpg
 INPUT .\chap1.images\vismelogo.jpg
 INPUT .\chap1.images\vismelogo.jpg
+INPUT .\chap1.images\material-ui-logo.png
+INPUT .\chap1.images\material-ui-logo.png
+INPUT .\chap1.images\material-ui-logo.png
+INPUT .\chap1.images\material-ui-logo.png
+INPUT .\chap1.images\material-ui-logo.png
+INPUT .\chap1.images\material-ui-logo.png
+INPUT .\chap1.images\material-ui-logo.png
 INPUT .\chap1.images\Postman-Logo.jpg
 INPUT .\chap1.images\Postman-Logo.jpg
 INPUT .\chap1.images\Postman-Logo.jpg
@@ -569,6 +651,34 @@ INPUT .\chap1.images\Postman-Logo.jpg
 INPUT .\chap1.images\Postman-Logo.jpg
 INPUT .\chap1.images\Postman-Logo.jpg
 INPUT .\chap1.images\Postman-Logo.jpg
+INPUT .\chap1.images\instagantt_logo.jpg
+INPUT .\chap1.images\instagantt_logo.jpg
+INPUT .\chap1.images\instagantt_logo.jpg
+INPUT .\chap1.images\instagantt_logo.jpg
+INPUT .\chap1.images\instagantt_logo.jpg
+INPUT .\chap1.images\instagantt_logo.jpg
+INPUT .\chap1.images\instagantt_logo.jpg
+INPUT .\chap1.images\adobe-photoshop-logo.png
+INPUT .\chap1.images\adobe-photoshop-logo.png
+INPUT .\chap1.images\adobe-photoshop-logo.png
+INPUT .\chap1.images\adobe-photoshop-logo.png
+INPUT .\chap1.images\adobe-photoshop-logo.png
+INPUT .\chap1.images\adobe-photoshop-logo.png
+INPUT .\chap1.images\adobe-photoshop-logo.png
+INPUT .\chap1.images\mvvm.png
+INPUT .\chap1.images\mvvm.png
+INPUT .\chap1.images\mvvm.png
+INPUT .\chap1.images\mvvm.png
+INPUT .\chap1.images\mvvm.png
+INPUT .\chap1.images\mvvm.png
+INPUT .\chap1.images\mvvm.png
+INPUT .\chap1.images\arch physique.png
+INPUT .\chap1.images\arch physique.png
+INPUT .\chap1.images\arch physique.png
+INPUT .\chap1.images\arch physique.png
+INPUT .\chap1.images\arch physique.png
+INPUT .\chap1.images\arch physique.png
+INPUT .\chap1.images\arch physique.png
 INPUT .\chap1.images\jira.png
 INPUT .\chap1.images\jira.png
 INPUT .\chap1.images\jira.png
@@ -651,10 +761,13 @@ INPUT .\chap2.images\prot gestion user.png
 INPUT .\chap2.images\prot gestion user.png
 INPUT .\chap2.images\prot gestion user.png
 INPUT .\chap2.images\prot gestion user.png
-INPUT .\chap2.images\prot gestion user.png
-INPUT .\chap2.images\prot gestion user.png
-INPUT .\chap2.images\prot gestion user.png
-INPUT .\chap2.images\prot gestion user.png
+INPUT .\chap2.images\PROT ADD USER.png
+INPUT .\chap2.images\PROT ADD USER.png
+INPUT .\chap2.images\PROT ADD USER.png
+INPUT .\chap2.images\PROT ADD USER.png
+INPUT .\chap2.images\PROT ADD USER.png
+INPUT .\chap2.images\PROT ADD USER.png
+INPUT .\chap2.images\PROT ADD USER.png
 INPUT .\chap2.images\maps web.png
 INPUT .\chap2.images\maps web.png
 INPUT .\chap2.images\maps web.png
@@ -697,13 +810,13 @@ INPUT .\chap2.images\vue global user flow.png
 INPUT .\chap2.images\vue global user flow.png
 INPUT .\chap2.images\vue global user flow.png
 INPUT .\chap2.images\vue global user flow.png
-INPUT .\chap2.images\org admin.png
-INPUT .\chap2.images\org admin.png
-INPUT .\chap2.images\org admin.png
-INPUT .\chap2.images\org admin.png
-INPUT .\chap2.images\org admin.png
-INPUT .\chap2.images\org admin.png
-INPUT .\chap2.images\org admin.png
+INPUT .\chap2.images\org admin2.png
+INPUT .\chap2.images\org admin2.png
+INPUT .\chap2.images\org admin2.png
+INPUT .\chap2.images\org admin2.png
+INPUT .\chap2.images\org admin2.png
+INPUT .\chap2.images\org admin2.png
+INPUT .\chap2.images\org admin2.png
 INPUT .\chap2.images\org chauffeur.png
 INPUT .\chap2.images\org chauffeur.png
 INPUT .\chap2.images\org chauffeur.png
@@ -725,13 +838,13 @@ INPUT .\chap2.images\org chef d'equipe.png
 INPUT .\chap2.images\org chef d'equipe.png
 INPUT .\chap2.images\org chef d'equipe.png
 INPUT .\chap2.images\org chef d'equipe.png
-INPUT .\chap2.images\diagramme de gantt.png
-INPUT .\chap2.images\diagramme de gantt.png
-INPUT .\chap2.images\diagramme de gantt.png
-INPUT .\chap2.images\diagramme de gantt.png
-INPUT .\chap2.images\diagramme de gantt.png
-INPUT .\chap2.images\diagramme de gantt.png
-INPUT .\chap2.images\diagramme de gantt.png
+INPUT .\chap2.images\diagramme de gantt.jpeg
+INPUT .\chap2.images\diagramme de gantt.jpeg
+INPUT .\chap2.images\diagramme de gantt.jpeg
+INPUT .\chap2.images\diagramme de gantt.jpeg
+INPUT .\chap2.images\diagramme de gantt.jpeg
+INPUT .\chap2.images\diagramme de gantt.jpeg
+INPUT .\chap2.images\diagramme de gantt.jpeg
 INPUT .\chap3.tex
 INPUT .\chap3.tex
 INPUT .\chap3.tex
@@ -744,20 +857,13 @@ INPUT .\chap3.images\usecase global sprint 1.png
 INPUT .\chap3.images\usecase global sprint 1.png
 INPUT .\chap3.images\usecase global sprint 1.png
 INPUT .\chap3.images\usecase global sprint 1.png
-INPUT .\chap3.images\1.png
-INPUT .\chap3.images\1.png
-INPUT .\chap3.images\1.png
-INPUT .\chap3.images\1.png
-INPUT .\chap3.images\1.png
-INPUT .\chap3.images\1.png
-INPUT .\chap3.images\1.png
-INPUT .\chap3.images\2.png
-INPUT .\chap3.images\2.png
-INPUT .\chap3.images\2.png
-INPUT .\chap3.images\2.png
-INPUT .\chap3.images\2.png
-INPUT .\chap3.images\2.png
-INPUT .\chap3.images\2.png
+INPUT .\chap3.images\Dss S’authentifier.png
+INPUT .\chap3.images\Dss S’authentifier.png
+INPUT .\chap3.images\Dss S’authentifier.png
+INPUT .\chap3.images\Dss S’authentifier.png
+INPUT .\chap3.images\Dss S’authentifier.png
+INPUT .\chap3.images\Dss S’authentifier.png
+INPUT .\chap3.images\Dss S’authentifier.png
 INPUT .\chap3.images\gerer raf sprint 1.png
 INPUT .\chap3.images\gerer raf sprint 1.png
 INPUT .\chap3.images\gerer raf sprint 1.png
@@ -765,13 +871,20 @@ INPUT .\chap3.images\gerer raf sprint 1.png
 INPUT .\chap3.images\gerer raf sprint 1.png
 INPUT .\chap3.images\gerer raf sprint 1.png
 INPUT .\chap3.images\gerer raf sprint 1.png
-INPUT .\chap3.images\3.png
-INPUT .\chap3.images\3.png
-INPUT .\chap3.images\3.png
-INPUT .\chap3.images\3.png
-INPUT .\chap3.images\3.png
-INPUT .\chap3.images\3.png
-INPUT .\chap3.images\3.png
+INPUT .\chap3.images\DSS ajouter utilisateur.png
+INPUT .\chap3.images\DSS ajouter utilisateur.png
+INPUT .\chap3.images\DSS ajouter utilisateur.png
+INPUT .\chap3.images\DSS ajouter utilisateur.png
+INPUT .\chap3.images\DSS ajouter utilisateur.png
+INPUT .\chap3.images\DSS ajouter utilisateur.png
+INPUT .\chap3.images\DSS ajouter utilisateur.png
+INPUT .\chap3.images\class sprint 1.png
+INPUT .\chap3.images\class sprint 1.png
+INPUT .\chap3.images\class sprint 1.png
+INPUT .\chap3.images\class sprint 1.png
+INPUT .\chap3.images\class sprint 1.png
+INPUT .\chap3.images\class sprint 1.png
+INPUT .\chap3.images\class sprint 1.png
 INPUT .\chap3.images\Authentification web.png
 INPUT .\chap3.images\Authentification web.png
 INPUT .\chap3.images\Authentification web.png
@@ -882,13 +995,13 @@ INPUT .\chap4.images\raf Gérer les véhicules.png
 INPUT .\chap4.images\raf Gérer les véhicules.png
 INPUT .\chap4.images\raf Gérer les véhicules.png
 INPUT .\chap4.images\raf Gérer les véhicules.png
-INPUT .\chap4.images\dss ajout vehicules.png
-INPUT .\chap4.images\dss ajout vehicules.png
-INPUT .\chap4.images\dss ajout vehicules.png
-INPUT .\chap4.images\dss ajout vehicules.png
-INPUT .\chap4.images\dss ajout vehicules.png
-INPUT .\chap4.images\dss ajout vehicules.png
-INPUT .\chap4.images\dss ajout vehicules.png
+INPUT .\chap4.images\dss ajouter vehicule.png
+INPUT .\chap4.images\dss ajouter vehicule.png
+INPUT .\chap4.images\dss ajouter vehicule.png
+INPUT .\chap4.images\dss ajouter vehicule.png
+INPUT .\chap4.images\dss ajouter vehicule.png
+INPUT .\chap4.images\dss ajouter vehicule.png
+INPUT .\chap4.images\dss ajouter vehicule.png
 INPUT .\chap4.images\raf creer taches.png
 INPUT .\chap4.images\raf creer taches.png
 INPUT .\chap4.images\raf creer taches.png
@@ -896,13 +1009,13 @@ INPUT .\chap4.images\raf creer taches.png
 INPUT .\chap4.images\raf creer taches.png
 INPUT .\chap4.images\raf creer taches.png
 INPUT .\chap4.images\raf creer taches.png
-INPUT .\chap4.images\dss creer taches.png
-INPUT .\chap4.images\dss creer taches.png
-INPUT .\chap4.images\dss creer taches.png
-INPUT .\chap4.images\dss creer taches.png
-INPUT .\chap4.images\dss creer taches.png
-INPUT .\chap4.images\dss creer taches.png
-INPUT .\chap4.images\dss creer taches.png
+INPUT .\chap4.images\dss créer taches des chauffeur.png
+INPUT .\chap4.images\dss créer taches des chauffeur.png
+INPUT .\chap4.images\dss créer taches des chauffeur.png
+INPUT .\chap4.images\dss créer taches des chauffeur.png
+INPUT .\chap4.images\dss créer taches des chauffeur.png
+INPUT .\chap4.images\dss créer taches des chauffeur.png
+INPUT .\chap4.images\dss créer taches des chauffeur.png
 INPUT .\chap4.images\raf consulter chauf.png
 INPUT .\chap4.images\raf consulter chauf.png
 INPUT .\chap4.images\raf consulter chauf.png
@@ -924,6 +1037,13 @@ INPUT .\chap4.images\raf consulter mec.png
 INPUT .\chap4.images\raf consulter mec.png
 INPUT .\chap4.images\raf consulter mec.png
 INPUT .\chap4.images\raf consulter mec.png
+INPUT .\chap4.images\class sprint 2.png
+INPUT .\chap4.images\class sprint 2.png
+INPUT .\chap4.images\class sprint 2.png
+INPUT .\chap4.images\class sprint 2.png
+INPUT .\chap4.images\class sprint 2.png
+INPUT .\chap4.images\class sprint 2.png
+INPUT .\chap4.images\class sprint 2.png
 INPUT .\chap4.images\creer taches.png
 INPUT .\chap4.images\creer taches.png
 INPUT .\chap4.images\creer taches.png
@@ -931,13 +1051,6 @@ INPUT .\chap4.images\creer taches.png
 INPUT .\chap4.images\creer taches.png
 INPUT .\chap4.images\creer taches.png
 INPUT .\chap4.images\creer taches.png
-INPUT .\chap4.images\Création des taches chauff.png
-INPUT .\chap4.images\Création des taches chauff.png
-INPUT .\chap4.images\Création des taches chauff.png
-INPUT .\chap4.images\Création des taches chauff.png
-INPUT .\chap4.images\Création des taches chauff.png
-INPUT .\chap4.images\Création des taches chauff.png
-INPUT .\chap4.images\Création des taches chauff.png
 INPUT .\chap4.images\Création des taches mec.png
 INPUT .\chap4.images\Création des taches mec.png
 INPUT .\chap4.images\Création des taches mec.png
@@ -945,6 +1058,13 @@ INPUT .\chap4.images\Création des taches mec.png
 INPUT .\chap4.images\Création des taches mec.png
 INPUT .\chap4.images\Création des taches mec.png
 INPUT .\chap4.images\Création des taches mec.png
+INPUT .\chap4.images\Création des taches chauff.png
+INPUT .\chap4.images\Création des taches chauff.png
+INPUT .\chap4.images\Création des taches chauff.png
+INPUT .\chap4.images\Création des taches chauff.png
+INPUT .\chap4.images\Création des taches chauff.png
+INPUT .\chap4.images\Création des taches chauff.png
+INPUT .\chap4.images\Création des taches chauff.png
 INPUT .\chap4.images\consultation du checklist.png
 INPUT .\chap4.images\consultation du checklist.png
 INPUT .\chap4.images\consultation du checklist.png
@@ -959,6 +1079,13 @@ INPUT .\chap4.images\consulation des taches.png
 INPUT .\chap4.images\consulation des taches.png
 INPUT .\chap4.images\consulation des taches.png
 INPUT .\chap4.images\consulation des taches.png
+INPUT .\chap4.images\valider taches.png
+INPUT .\chap4.images\valider taches.png
+INPUT .\chap4.images\valider taches.png
+INPUT .\chap4.images\valider taches.png
+INPUT .\chap4.images\valider taches.png
+INPUT .\chap4.images\valider taches.png
+INPUT .\chap4.images\valider taches.png
 INPUT .\chap4.images\Burndown chart sprint 2.png
 INPUT .\chap4.images\Burndown chart sprint 2.png
 INPUT .\chap4.images\Burndown chart sprint 2.png
@@ -1027,6 +1154,13 @@ INPUT .\chap5.images\dss rapport.png
 INPUT .\chap5.images\dss rapport.png
 INPUT .\chap5.images\dss rapport.png
 INPUT .\chap5.images\dss rapport.png
+INPUT .\chap5.images\class sprint 3.png
+INPUT .\chap5.images\class sprint 3.png
+INPUT .\chap5.images\class sprint 3.png
+INPUT .\chap5.images\class sprint 3.png
+INPUT .\chap5.images\class sprint 3.png
+INPUT .\chap5.images\class sprint 3.png
+INPUT .\chap5.images\class sprint 3.png
 INPUT .\chap5.images\map weeeb.png
 INPUT .\chap5.images\map weeeb.png
 INPUT .\chap5.images\map weeeb.png
@@ -1062,27 +1196,27 @@ INPUT .\chap5.images\notif mobile.png
 INPUT .\chap5.images\notif mobile.png
 INPUT .\chap5.images\notif mobile.png
 INPUT .\chap5.images\notif mobile.png
-INPUT .\chap5.images\r1.png
-INPUT .\chap5.images\r1.png
-INPUT .\chap5.images\r1.png
-INPUT .\chap5.images\r1.png
-INPUT .\chap5.images\r1.png
-INPUT .\chap5.images\r1.png
-INPUT .\chap5.images\r1.png
-INPUT .\chap5.images\r2.png
-INPUT .\chap5.images\r2.png
-INPUT .\chap5.images\r2.png
-INPUT .\chap5.images\r2.png
-INPUT .\chap5.images\r2.png
-INPUT .\chap5.images\r2.png
-INPUT .\chap5.images\r2.png
-INPUT .\chap5.images\r3.png
-INPUT .\chap5.images\r3.png
-INPUT .\chap5.images\r3.png
-INPUT .\chap5.images\r3.png
-INPUT .\chap5.images\r3.png
-INPUT .\chap5.images\r3.png
-INPUT .\chap5.images\r3.png
+INPUT .\chap5.images\r11.png
+INPUT .\chap5.images\r11.png
+INPUT .\chap5.images\r11.png
+INPUT .\chap5.images\r11.png
+INPUT .\chap5.images\r11.png
+INPUT .\chap5.images\r11.png
+INPUT .\chap5.images\r11.png
+INPUT .\chap5.images\r22.png
+INPUT .\chap5.images\r22.png
+INPUT .\chap5.images\r22.png
+INPUT .\chap5.images\r22.png
+INPUT .\chap5.images\r22.png
+INPUT .\chap5.images\r22.png
+INPUT .\chap5.images\r22.png
+INPUT .\chap5.images\r33.png
+INPUT .\chap5.images\r33.png
+INPUT .\chap5.images\r33.png
+INPUT .\chap5.images\r33.png
+INPUT .\chap5.images\r33.png
+INPUT .\chap5.images\r33.png
+INPUT .\chap5.images\r33.png
 INPUT .\chap5.images\Burndown chart sprint 3.png
 INPUT .\chap5.images\Burndown chart sprint 3.png
 INPUT .\chap5.images\Burndown chart sprint 3.png
@@ -1118,6 +1252,143 @@ INPUT .\chap5.images\fail sprint 3.png
 INPUT .\chap5.images\fail sprint 3.png
 INPUT .\chap5.images\fail sprint 3.png
 INPUT .\chap5.images\fail sprint 3.png
+INPUT .\chap6.tex
+INPUT .\chap6.tex
+INPUT .\chap6.tex
+INPUT .\chap6.tex
+INPUT chap6.tex
+INPUT .\chap6.images\constélation.png
+INPUT .\chap6.images\constélation.png
+INPUT .\chap6.images\constélation.png
+INPUT .\chap6.images\constélation.png
+INPUT .\chap6.images\constélation.png
+INPUT .\chap6.images\constélation.png
+INPUT .\chap6.images\constélation.png
+INPUT .\chap6.images\mart driver.png
+INPUT .\chap6.images\mart driver.png
+INPUT .\chap6.images\mart driver.png
+INPUT .\chap6.images\mart driver.png
+INPUT .\chap6.images\mart driver.png
+INPUT .\chap6.images\mart driver.png
+INPUT .\chap6.images\mart driver.png
+INPUT C:\MiKTeX\fonts\tfm\public\lm\rm-lmr12.tfm
+INPUT C:\MiKTeX\fonts\tfm\public\lm\lmmi12.tfm
+INPUT C:\MiKTeX\fonts\tfm\public\lm\lmsy10.tfm
+INPUT C:\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT .\chap6.images\mart vehicules.png
+INPUT .\chap6.images\mart vehicules.png
+INPUT .\chap6.images\mart vehicules.png
+INPUT .\chap6.images\mart vehicules.png
+INPUT .\chap6.images\mart vehicules.png
+INPUT .\chap6.images\mart vehicules.png
+INPUT .\chap6.images\mart vehicules.png
+INPUT .\chap6.images\mart mecano.png
+INPUT .\chap6.images\mart mecano.png
+INPUT .\chap6.images\mart mecano.png
+INPUT .\chap6.images\mart mecano.png
+INPUT .\chap6.images\mart mecano.png
+INPUT .\chap6.images\mart mecano.png
+INPUT .\chap6.images\mart mecano.png
+INPUT .\chap6.images\etoile1.png
+INPUT .\chap6.images\etoile1.png
+INPUT .\chap6.images\etoile1.png
+INPUT .\chap6.images\etoile1.png
+INPUT .\chap6.images\etoile1.png
+INPUT .\chap6.images\etoile1.png
+INPUT .\chap6.images\etoile1.png
+INPUT .\chap6.images\etl-pipeline 1.png
+INPUT .\chap6.images\etl-pipeline 1.png
+INPUT .\chap6.images\etl-pipeline 1.png
+INPUT .\chap6.images\etl-pipeline 1.png
+INPUT .\chap6.images\etl-pipeline 1.png
+INPUT .\chap6.images\etl-pipeline 1.png
+INPUT .\chap6.images\etl-pipeline 1.png
+INPUT .\chap6.images\E.png
+INPUT .\chap6.images\E.png
+INPUT .\chap6.images\E.png
+INPUT .\chap6.images\E.png
+INPUT .\chap6.images\E.png
+INPUT .\chap6.images\E.png
+INPUT .\chap6.images\E.png
+INPUT .\chap6.images\trans users.png
+INPUT .\chap6.images\trans users.png
+INPUT .\chap6.images\trans users.png
+INPUT .\chap6.images\trans users.png
+INPUT .\chap6.images\trans users.png
+INPUT .\chap6.images\trans users.png
+INPUT .\chap6.images\trans users.png
+INPUT .\chap6.images\trans fact driver task.png
+INPUT .\chap6.images\trans fact driver task.png
+INPUT .\chap6.images\trans fact driver task.png
+INPUT .\chap6.images\trans fact driver task.png
+INPUT .\chap6.images\trans fact driver task.png
+INPUT .\chap6.images\trans fact driver task.png
+INPUT .\chap6.images\trans fact driver task.png
+INPUT .\chap6.images\load usee.png
+INPUT .\chap6.images\load usee.png
+INPUT .\chap6.images\load usee.png
+INPUT .\chap6.images\load usee.png
+INPUT .\chap6.images\load usee.png
+INPUT .\chap6.images\load usee.png
+INPUT .\chap6.images\load usee.png
+INPUT .\chap6.images\load driver tasks.png
+INPUT .\chap6.images\load driver tasks.png
+INPUT .\chap6.images\load driver tasks.png
+INPUT .\chap6.images\load driver tasks.png
+INPUT .\chap6.images\load driver tasks.png
+INPUT .\chap6.images\load driver tasks.png
+INPUT .\chap6.images\load driver tasks.png
+INPUT .\chap6.images\nivo.png
+INPUT .\chap6.images\nivo.png
+INPUT .\chap6.images\nivo.png
+INPUT .\chap6.images\nivo.png
+INPUT .\chap6.images\nivo.png
+INPUT .\chap6.images\nivo.png
+INPUT .\chap6.images\nivo.png
+INPUT .\chap6.images\bar.png
+INPUT .\chap6.images\bar.png
+INPUT .\chap6.images\bar.png
+INPUT .\chap6.images\bar.png
+INPUT .\chap6.images\bar.png
+INPUT .\chap6.images\bar.png
+INPUT .\chap6.images\bar.png
+INPUT .\chap6.images\Line.png
+INPUT .\chap6.images\Line.png
+INPUT .\chap6.images\Line.png
+INPUT .\chap6.images\Line.png
+INPUT .\chap6.images\Line.png
+INPUT .\chap6.images\Line.png
+INPUT .\chap6.images\Line.png
+INPUT .\chap6.images\Pie.png
+INPUT .\chap6.images\Pie.png
+INPUT .\chap6.images\Pie.png
+INPUT .\chap6.images\Pie.png
+INPUT .\chap6.images\Pie.png
+INPUT .\chap6.images\Pie.png
+INPUT .\chap6.images\Pie.png
+INPUT .\chap6.images\heatmap.png
+INPUT .\chap6.images\heatmap.png
+INPUT .\chap6.images\heatmap.png
+INPUT .\chap6.images\heatmap.png
+INPUT .\chap6.images\heatmap.png
+INPUT .\chap6.images\heatmap.png
+INPUT .\chap6.images\heatmap.png
+INPUT .\conclusion.tex
+INPUT .\conclusion.tex
+INPUT .\conclusion.tex
+INPUT .\conclusion.tex
+INPUT conclusion.tex
+INPUT .\mathbib.tex
+INPUT .\mathbib.tex
+INPUT mathbib.tex
+INPUT C:\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\MiKTeX\fonts\tfm\public\lm\ec-lmtt12.tfm
+INPUT .\Resumé.tex
+INPUT .\Resumé.tex
+INPUT Resumé.tex
 INPUT main.aux
 INPUT .\main.out
 INPUT .\main.out
@@ -1129,9 +1400,15 @@ INPUT C:\MiKTeX\fonts\type1\public\lm\lmcsc10.pfb
 INPUT C:\MiKTeX\fonts\type1\public\lm\lmcsc10.pfb
 INPUT C:\MiKTeX\fonts\type1\public\lm\lmr10.pfb
 INPUT C:\MiKTeX\fonts\type1\public\lm\lmr10.pfb
+INPUT C:\MiKTeX\fonts\type1\public\lm\lmr12.pfb
+INPUT C:\MiKTeX\fonts\type1\public\lm\lmr12.pfb
 INPUT C:\MiKTeX\fonts\type1\public\lm\lmr9.pfb
 INPUT C:\MiKTeX\fonts\type1\public\lm\lmr9.pfb
+INPUT C:\MiKTeX\fonts\type1\public\lm\lmri10.pfb
+INPUT C:\MiKTeX\fonts\type1\public\lm\lmri10.pfb
 INPUT C:\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
 INPUT C:\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
+INPUT C:\MiKTeX\fonts\type1\public\lm\lmtt12.pfb
+INPUT C:\MiKTeX\fonts\type1\public\lm\lmtt12.pfb
 INPUT C:\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
 INPUT C:\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb

@@ -1,120 +1,153 @@
 \babel@toc {french}{}\relax 
 \contentsline {chapter}{Table des mati\`eres}{4}{chapter*.1}%
-\contentsline {chapter}{Table des figures}{8}{chapter*.2}%
-\contentsline {chapter}{Liste des tableaux}{11}{chapter*.3}%
-\contentsline {chapter}{Introduction générale}{12}{chapter*.4}%
-\contentsline {chapter}{\numberline {1} Etude préliminaire du projet }{13}{chapter.1}%
-\contentsline {section}{Introduction}{13}{section*.5}%
-\contentsline {section}{\numberline {1.1}Présentation de l’organisme d’accueil}{13}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1} Organigramme de l’entreprise }{14}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2} Les activités de Digital Identity : }{14}{subsection.1.1.2}%
-\contentsline {section}{\numberline {1.2}Cadre du projet}{15}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1} Problématique}{15}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2} Solution proposée}{15}{subsection.1.2.2}%
-\contentsline {section}{\numberline {1.3}Méthodologie et langage de conception}{16}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1} Méthodes agiles}{16}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2} Principes du framework Scrum}{17}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3} Rôles du framework Scrum}{18}{subsection.1.3.3}%
-\contentsline {subsection}{\numberline {1.3.4} Langage de modélisation}{18}{subsection.1.3.4}%
-\contentsline {section}{\numberline {1.4}Environnement de travail}{19}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1} Langages et framework utilisés }{19}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}Environnement matériel}{21}{subsection.1.4.2}%
-\contentsline {subsection}{\numberline {1.4.3} Environnement logiciel }{21}{subsection.1.4.3}%
-\contentsline {section}{\numberline {1.5}Organisation du travail}{24}{section.1.5}%
-\contentsline {section}{Conclusion}{25}{section*.6}%
-\contentsline {chapter}{\numberline {2} Planification du projet}{26}{chapter.2}%
-\contentsline {section}{Introduction}{26}{section*.7}%
-\contentsline {section}{\numberline {2.1}Spécification des besoins}{26}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Identification des acteurs}{26}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Besoins fonctionnels}{28}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Besoins non fonctionnels}{29}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Diagramme de cas d'utilisation}{30}{subsection.2.1.4}%
-\contentsline {section}{\numberline {2.2}Pilotage du projet avec Scrum}{31}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Équipe et rôles}{31}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Contraintes et exigences}{31}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Risques}{31}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Backlog du produit}{31}{subsection.2.2.4}%
-\contentsline {section}{\numberline {2.3}Conception de l'application}{33}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Prototypes de l'application}{33}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Charte Graphique}{37}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Plan de l'application}{37}{subsection.2.3.3}%
-\contentsline {subsubsection}{Diagramme de flux utilisateur}{37}{section*.8}%
-\contentsline {subsubsection}{Flux administrateur}{39}{section*.9}%
-\contentsline {subsubsection}{Flux chauffeur}{40}{section*.10}%
-\contentsline {subsubsection}{Flux mécanicien}{41}{section*.11}%
-\contentsline {subsubsection}{Flux chef d'équipe}{42}{section*.12}%
-\contentsline {subsection}{\numberline {2.3.4}Diagramme de classe du domaine}{43}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}Diagramme de Gantt }{44}{subsection.2.3.5}%
-\contentsline {section}{Conclusion}{44}{section*.13}%
-\contentsline {chapter}{\numberline {3} Sprint 1 : Gestion des accès}{45}{chapter.3}%
-\contentsline {section}{Introduction}{45}{section*.14}%
-\contentsline {section}{\numberline {3.1}Sprint Backlog}{45}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Analyse et conception}{46}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Diagramme de cas d’utilisation du sprint 1}{46}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Diagramme de séquence système du cas d’utilisation «S’authentifier»}{47}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Description textuelle du cas d’utilisation “S’authentifier”}{49}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Raffinement du cas d'utilisation « Gérer les utilisateurs »}{50}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Diagramme de séquence système du cas d’utilisation «Ajouter utilisateur»}{50}{subsection.3.2.5}%
-\contentsline {subsection}{\numberline {3.2.6}Description textuelle du cas d’utilisation “Ajouter utilisateur”}{51}{subsection.3.2.6}%
-\contentsline {section}{\numberline {3.3}Diagramme de classes du sprint 1}{52}{section.3.3}%
-\contentsline {section}{\numberline {3.4} Réalisation}{53}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Authentification}{53}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2} Profil}{54}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Gestion des utilisateurs}{55}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}Création d'un nouvel utilisateur}{56}{subsection.3.4.4}%
-\contentsline {section}{\numberline {3.5}Rétrospective}{56}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Burdown Chart}{57}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Task Bord}{57}{subsection.3.5.2}%
-\contentsline {section}{\numberline {3.6}Tests unitaires}{58}{section.3.6}%
-\contentsline {section}{Conclusion}{59}{section*.15}%
-\contentsline {chapter}{\numberline {4} Sprint 2 : Gestion des Tâches }{60}{chapter.4}%
-\contentsline {section}{Introduction}{60}{section*.16}%
-\contentsline {section}{\numberline {4.1}Sprint Backlog}{60}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Analyse et conception}{61}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Diagramme de cas d’utilisation du sprint 2 }{61}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Raffinement du cas d'utilisation « Gérer les véhicules »}{61}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Description textuelle du cas d’utilisation « Ajouter véhicules »}{62}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Diagramme de séquence système du cas d’utilisation « Ajouter des véhicules »}{63}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}Raffinement du cas d'utilisation « Créer les taches »}{64}{subsection.4.2.5}%
-\contentsline {subsection}{\numberline {4.2.6}Description textuelle du cas d’utilisation « Créer des Tâches pour les Mécaniciens »}{64}{subsection.4.2.6}%
-\contentsline {subsection}{\numberline {4.2.7}Description textuelle du cas d’utilisation « Créer des Tâches pour les Chauffeurs »}{65}{subsection.4.2.7}%
-\contentsline {subsection}{\numberline {4.2.8}Diagramme de séquence système du cas d’utilisation «Créer les taches»}{67}{subsection.4.2.8}%
-\contentsline {subsection}{\numberline {4.2.9}Raffinement du cas d'utilisation « Consulter les taches pour les chauffeurs »}{68}{subsection.4.2.9}%
-\contentsline {subsection}{\numberline {4.2.10}Description textuelle du cas d’utilisation « Consulter les taches pour les chauffeurs »}{68}{subsection.4.2.10}%
-\contentsline {subsection}{\numberline {4.2.11}Diagramme d'activité du cas d’utilisation «Consulter les taches des chauffeurs» }{69}{subsection.4.2.11}%
-\contentsline {subsection}{\numberline {4.2.12}Raffinement du cas d'utilisation « Consulter les taches pour les mécaniciens »}{70}{subsection.4.2.12}%
-\contentsline {subsection}{\numberline {4.2.13}Description textuelle du cas d’utilisation « Consulter les taches pour les mécaniciens »}{70}{subsection.4.2.13}%
-\contentsline {section}{\numberline {4.3}Diagramme de classes du sprint 2}{71}{section.4.3}%
-\contentsline {section}{\numberline {4.4} Réalisation}{72}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Interface de création des taches}{72}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Consultation du checklist du chauffeur}{74}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Consulation des taches du mécanicien }{74}{subsection.4.4.3}%
-\contentsline {section}{\numberline {4.5}Rétrospective}{74}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Burdown Chart}{75}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Task Bord}{75}{subsection.4.5.2}%
-\contentsline {section}{\numberline {4.6}tests unitaires}{76}{section.4.6}%
-\contentsline {section}{Conclusion}{77}{section*.17}%
-\contentsline {chapter}{\numberline {5}Sprint 3 : Suivi et Création des Rapports}{78}{chapter.5}%
-\contentsline {section}{Introduction}{78}{section*.18}%
-\contentsline {section}{\numberline {5.1}Sprint Backlog}{78}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Analyse et conception}{79}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Diagramme de cas d’utilisation du sprint 3}{79}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Description textuelle du cas d’utilisation « Suivi en Temps Réel par Géolocalisation »}{80}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}Description textuelle du cas d’utilisation « Planifier les déplacements »}{82}{subsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.2.4}Diagramme de séquence système du cas d’utilisation « Planifier les déplacements »}{82}{subsection.5.2.4}%
-\contentsline {subsection}{\numberline {5.2.5}Description textuelle du cas d’utilisation « Consulter Notifications »}{83}{subsection.5.2.5}%
-\contentsline {subsection}{\numberline {5.2.6}Diagramme d'activité du cas d’utilisation « Consulter Notifications »}{83}{subsection.5.2.6}%
-\contentsline {subsection}{\numberline {5.2.7}Raffinement du cas d'utilisation « Générer des rapports »}{84}{subsection.5.2.7}%
-\contentsline {subsection}{\numberline {5.2.8}Description textuelle du cas d’utilisation « Générer des rapports »}{84}{subsection.5.2.8}%
-\contentsline {subsection}{\numberline {5.2.9}Diagramme de séquence système du cas d’utilisation « Générer des rapports »}{85}{subsection.5.2.9}%
-\contentsline {section}{\numberline {5.3}Diagramme de classes du sprint 3}{86}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Réalisation}{87}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Suivi en Temps Réel par Géolocalisation}{87}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}La planification des déplacements }{87}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}Les Notifications}{88}{subsection.5.4.3}%
-\contentsline {subsection}{\numberline {5.4.4}Géneration d'un Rapport}{89}{subsection.5.4.4}%
-\contentsline {section}{\numberline {5.5}Rétrospective}{90}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}Burdown Chart}{90}{subsection.5.5.1}%
-\contentsline {subsection}{\numberline {5.5.2}Task Bord}{90}{subsection.5.5.2}%
-\contentsline {section}{\numberline {5.6}Tests unitaires}{91}{section.5.6}%
-\contentsline {section}{Conclusion}{92}{section*.19}%
+\contentsline {chapter}{Table des figures}{9}{chapter*.2}%
+\contentsline {chapter}{Liste des tableaux}{13}{chapter*.3}%
+\contentsline {chapter}{Introduction générale}{15}{chapter*.5}%
+\contentsline {chapter}{\numberline {1} Etude préliminaire du projet }{17}{chapter.1}%
+\contentsline {section}{Introduction}{17}{section*.6}%
+\contentsline {section}{\numberline {1.1}Présentation de l’organisme d’accueil}{17}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1} Organigramme de l’entreprise }{18}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2} Les activités de Digital Identity }{18}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}Cadre du projet}{19}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1} Problématique}{19}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2} Solution proposée}{20}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Méthodologie et langage de conception}{20}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1} Méthodes agiles}{20}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2} Principes du framework Scrum}{21}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3} Rôles du framework Scrum}{22}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4} Langage de modélisation}{23}{subsection.1.3.4}%
+\contentsline {section}{\numberline {1.4}Environnement de travail}{23}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1} Langages et framework utilisés }{23}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Environnement matériel}{25}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3} Environnement logiciel }{26}{subsection.1.4.3}%
+\contentsline {section}{\numberline {1.5}Architecture du Système}{29}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Architecture logique front-end}{29}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Architecture physqique}{29}{subsection.1.5.2}%
+\contentsline {section}{\numberline {1.6}Organisation du travail}{30}{section.1.6}%
+\contentsline {section}{Conclusion}{31}{section*.7}%
+\contentsline {chapter}{\numberline {2} Planification du projet}{32}{chapter.2}%
+\contentsline {section}{Introduction}{32}{section*.8}%
+\contentsline {section}{\numberline {2.1}Spécification des besoins}{32}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Identification des acteurs}{32}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Besoins fonctionnels}{33}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Besoins non fonctionnels}{35}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Diagramme de cas d'utilisation}{36}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}Pilotage du projet avec Scrum}{37}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Équipe et rôles}{37}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Contraintes et exigences}{37}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Risques}{37}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Backlog du produit}{37}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}Conception de l'application}{39}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Prototypes de l'application}{39}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Charte Graphique}{43}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Plan de l'application}{43}{subsection.2.3.3}%
+\contentsline {subsubsection}{Diagramme de flux utilisateur}{43}{section*.9}%
+\contentsline {subsubsection}{Flux administrateur}{45}{section*.10}%
+\contentsline {subsubsection}{Flux chauffeur}{46}{section*.11}%
+\contentsline {subsubsection}{Flux mécanicien}{47}{section*.12}%
+\contentsline {subsubsection}{Flux chef d'équipe}{48}{section*.13}%
+\contentsline {subsection}{\numberline {2.3.4}Diagramme de Gantt }{49}{subsection.2.3.4}%
+\contentsline {section}{Conclusion}{49}{section*.14}%
+\contentsline {chapter}{\numberline {3} Sprint 1 : Gestion des accès}{50}{chapter.3}%
+\contentsline {section}{Introduction}{50}{section*.15}%
+\contentsline {section}{\numberline {3.1}Backlog du sprint 1}{50}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Analyse et conception}{51}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Diagramme de cas d’utilisation du sprint 1}{51}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Description textuelle du cas d’utilisation “S’authentifier”}{52}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Diagramme de séquence système du cas d’utilisation «S’authentifier»}{53}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Raffinement du cas d'utilisation « Gérer les utilisateurs »}{54}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Description textuelle du cas d’utilisation “Ajouter utilisateur”}{54}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Diagramme de séquence système du cas d’utilisation «Ajouter utilisateur»}{55}{subsection.3.2.6}%
+\contentsline {section}{\numberline {3.3}Diagramme de classes du sprint 1}{56}{section.3.3}%
+\contentsline {section}{\numberline {3.4} Réalisation}{57}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Authentification}{57}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2} Profil}{58}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Gestion des utilisateurs}{59}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Création d'un nouvel utilisateur}{59}{subsection.3.4.4}%
+\contentsline {section}{\numberline {3.5}Rétrospective}{60}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Burdown Chart}{60}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Task Bord}{61}{subsection.3.5.2}%
+\contentsline {section}{\numberline {3.6}Tests unitaires}{61}{section.3.6}%
+\contentsline {section}{Conclusion}{62}{section*.16}%
+\contentsline {chapter}{\numberline {4} Sprint 2 : Gestion des Tâches }{63}{chapter.4}%
+\contentsline {section}{Introduction}{63}{section*.17}%
+\contentsline {section}{\numberline {4.1}Backlog du sprint 2}{63}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Analyse et conception}{64}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Diagramme de cas d’utilisation du sprint 2 }{64}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Raffinement du cas d'utilisation « Gérer les véhicules »}{64}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Description textuelle du cas d’utilisation « Ajouter véhicules »}{65}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Diagramme de séquence système du cas d’utilisation « Ajouter des véhicules »}{66}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Raffinement du cas d'utilisation « Créer les taches »}{67}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}Description textuelle du cas d’utilisation « Créer des Tâches pour les Mécaniciens »}{67}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {4.2.7}Description textuelle du cas d’utilisation « Créer des Tâches pour les Chauffeurs »}{68}{subsection.4.2.7}%
+\contentsline {subsection}{\numberline {4.2.8}Diagramme de séquence système du cas d’utilisation «Créer les tâches pour les chauffeurs»}{70}{subsection.4.2.8}%
+\contentsline {subsection}{\numberline {4.2.9}Raffinement du cas d'utilisation « Consulter les taches pour les chauffeurs »}{71}{subsection.4.2.9}%
+\contentsline {subsection}{\numberline {4.2.10}Description textuelle du cas d’utilisation « Consulter les taches pour les chauffeurs »}{71}{subsection.4.2.10}%
+\contentsline {subsection}{\numberline {4.2.11}Diagramme d'activité du cas d’utilisation «Consulter les taches des chauffeurs» }{72}{subsection.4.2.11}%
+\contentsline {subsection}{\numberline {4.2.12}Raffinement du cas d'utilisation « Consulter les taches pour les mécaniciens »}{73}{subsection.4.2.12}%
+\contentsline {subsection}{\numberline {4.2.13}Description textuelle du cas d’utilisation « Consulter les taches pour les mécaniciens »}{73}{subsection.4.2.13}%
+\contentsline {section}{\numberline {4.3}Diagramme de classes du sprint 2}{74}{section.4.3}%
+\contentsline {section}{\numberline {4.4} Réalisation}{75}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Interface de création des taches}{75}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Consultation du checklist du chauffeur}{76}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Consulation des taches du mécanicien }{77}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Validation des taches du mécanicien par le chef d'équipe }{77}{subsection.4.4.4}%
+\contentsline {section}{\numberline {4.5}Rétrospective}{78}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Burdown Chart}{78}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Task Bord}{78}{subsection.4.5.2}%
+\contentsline {section}{\numberline {4.6}tests unitaires}{79}{section.4.6}%
+\contentsline {section}{Conclusion}{80}{section*.18}%
+\contentsline {chapter}{\numberline {5}Sprint 3 : Suivi et Création des Rapports}{81}{chapter.5}%
+\contentsline {section}{Introduction}{81}{section*.19}%
+\contentsline {section}{\numberline {5.1}Backlog du sprint 3}{81}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Analyse et conception}{82}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Diagramme de cas d’utilisation du sprint 3}{82}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Description textuelle du cas d’utilisation « Suivi en Temps Réel par Géolocalisation »}{83}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Description textuelle du cas d’utilisation « Planifier les déplacements »}{84}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Description textuelle du cas d’utilisation « Consulter Notifications »}{85}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.5}Diagramme d'activité du cas d’utilisation « Consulter Notifications »}{85}{subsection.5.2.5}%
+\contentsline {subsection}{\numberline {5.2.6}Raffinement du cas d'utilisation « Générer des rapports »}{86}{subsection.5.2.6}%
+\contentsline {subsection}{\numberline {5.2.7}Description textuelle du cas d’utilisation « Générer des rapports »}{86}{subsection.5.2.7}%
+\contentsline {subsection}{\numberline {5.2.8}Diagramme de séquence système du cas d’utilisation « Générer des rapports »}{87}{subsection.5.2.8}%
+\contentsline {section}{\numberline {5.3}Diagramme de classes du sprint 3}{88}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Réalisation}{89}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Suivi en Temps Réel par Géolocalisation}{89}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}La planification des déplacements }{89}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Les Notifications}{90}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}Géneration d'un Rapport}{91}{subsection.5.4.4}%
+\contentsline {section}{\numberline {5.5}Rétrospective}{92}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Burdown Chart}{92}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Task Bord}{92}{subsection.5.5.2}%
+\contentsline {section}{\numberline {5.6}Tests unitaires}{93}{section.5.6}%
+\contentsline {section}{Conclusion}{94}{section*.20}%
+\contentsline {chapter}{\numberline {6}Sprint 4 : Implémentation des tableaux de bord }{95}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Backlog du sprint 4}{95}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Conception du data warehouse}{96}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Choix du modéle}{96}{subsection.6.2.1}%
+\contentsline {section}{\numberline {6.3}Définition des indicateurs de performance}{96}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Schéma en constellation}{97}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Les tables de fait}{97}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Les tables de dimensions}{98}{subsection.6.4.2}%
+\contentsline {section}{\numberline {6.5}Data mart : Chauffeur}{101}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1} Schéma conceptuel du DataMart « Chauffeur »}{101}{subsection.6.5.1}%
+\contentsline {section}{\numberline {6.6}Data mart : Véhicules}{102}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1} Schéma conceptuel du DataMart « Véhicules »}{102}{subsection.6.6.1}%
+\contentsline {section}{\numberline {6.7}Data mart : Mécanicien}{103}{section.6.7}%
+\contentsline {subsection}{\numberline {6.7.1} Schéma conceptuel du DataMart « Mécanicien »}{103}{subsection.6.7.1}%
+\contentsline {section}{\numberline {6.8}Data mart Utilisateurs}{104}{section.6.8}%
+\contentsline {subsection}{\numberline {6.8.1} Schéma conceptuel du DataMart « Utilisateurs »}{104}{subsection.6.8.1}%
+\contentsline {section}{\numberline {6.9}Le développement de l’ETL}{105}{section.6.9}%
+\contentsline {subsection}{\numberline {6.9.1}Extraction des données}{106}{subsection.6.9.1}%
+\contentsline {subsection}{\numberline {6.9.2}Transformation des données}{106}{subsection.6.9.2}%
+\contentsline {subsubsection}{Transformation du table de dimension 'users' : transform-dim-users}{106}{section*.22}%
+\contentsline {subsubsection}{Transformation du table de fait Tâches du chauffeur : transform-fact-driver-tasks}{107}{section*.23}%
+\contentsline {subsection}{\numberline {6.9.3}Chargement des données}{108}{subsection.6.9.3}%
+\contentsline {subsubsection}{Chargement des Données dans la Table DimUsers :}{108}{section*.24}%
+\contentsline {subsubsection}{Chargement des Données dans la Table FactDriverTasks :}{109}{section*.25}%
+\contentsline {section}{\numberline {6.10}Choix des graphiques}{110}{section.6.10}%
+\contentsline {section}{\numberline {6.11}Publication du tableau de bord}{113}{section.6.11}%
+\contentsline {subsection}{\numberline {6.11.1}Présentation des tableaux de bord dans l'application web}{113}{subsection.6.11.1}%
+\contentsline {subsection}{\numberline {6.11.2}Présentation des tableaux de bord dans l'application mobile}{113}{subsection.6.11.2}%
+\contentsline {section}{Conclusion}{113}{section*.26}%
+\contentsline {chapter}{Conclusion générale}{114}{chapter*.27}%
+\contentsline {chapter}{Webographie}{115}{chapter*.28}%

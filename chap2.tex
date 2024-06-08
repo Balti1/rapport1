@@ -37,7 +37,7 @@ Cette étape vise à identifier les acteurs interagissant directement avec le sy
 
 %__________________________________________________________________________________________________________
 
-\newpage
+
 \subsection{Besoins fonctionnels}
 La spécification des besoins fonctionnels détermine les exigences fonctionnelles ainsi que les principaux objectifs et fonctionnalités de l'application. En d'autres termes, elle spécifie ce que le système étudié doit faire.\\
 
@@ -64,7 +64,7 @@ La spécification des besoins fonctionnels détermine les exigences fonctionnell
 
   \item[$\bullet$] \textbf {Consultation de checklist :} Permet au chauffeur de consulter les listes de vérification nécessaires avant de commencer un voyage ou une mission, garantissant ainsi la conformité et la sécurité .\\
 
-  \item[$\bullet$] \textbf {Planification des voyages :} Autorise le chauffeur à planifier ses itinéraires et ses voyages à l'avance, en tenant compte des horaires, des destinations et d'autres paramètres pertinents. \\
+  \item[$\bullet$] \textbf {Planification les déplacements :} Autorise le chauffeur à planifier ses itinéraires et ses voyages à l'avance, en tenant compte des horaires, des destinations et d'autres paramètres pertinents. \\
 
   \item[$\bullet$] \textbf {Confirmation des tâches :} Permet au chauffeur de confirmer la réalisation des tâches qui lui sont assignées, telles que la livraison de marchandises ou la maintenance préventive des véhicules.\\
 
@@ -101,9 +101,10 @@ La définition des besoins non fonctionnels est cruciale pour déterminer les ca
 \newpage
 \subsection{Diagramme de cas d'utilisation}
 La figure 2.2 illustre le diagramme de cas d'utilisation géneral de notre application.
-\begin{figure}[ht]
+\bigskip
+\begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth,height=18cm]{chap2.images/use case global.png}
+  \includegraphics[width=1\textwidth,height=21cm]{chap2.images/use case global.png}
   \caption{Diagramme de cas d'utilisation global}
 \end{figure}
 
@@ -135,49 +136,39 @@ Le backlog du produit (Table 2.1) montre la liste des exigences et des fonctionn
 %______________________________________________________________________________________________________
 
 
-
-
-
-
-
 \begin{table}[htbp]
   \centering
   \renewcommand{\arraystretch}{4.15} % Facteur d'étirement des lignes
   \begin{tabular}{|c|c|c|c|}
     \hline
-    \textbf{ID}   & \textbf{USER STORIES}                                                                                                                                                            & \textbf{PRIORITE} & \textbf{RISQUE} \\
+    \textbf{ID}   & \textbf{USER STORIES}                                                                                                                                                & \textbf{PRIORITE} & \textbf{RISQUE} \\
 
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%        
 
     \hline
-    \textbf{US1}  & \parbox{9cm}{\centering En tant qu’administrateur,, chauffeur, chef d'équipe et mécanicien je veux m'authentifier pour que j'accède a mon espace.}                               & Elevée            & Faible          \\
+    \textbf{US1}  & \parbox{9cm}{\centering En tant qu’administrateur, chauffeur, chef d'équipe et mécanicien je veux m'authentifier pour que j'accède a mon espace.}                    & Elevée            & Elevé           \\
     \hline
-    \textbf{US2}  & \parbox{9cm}{\centering En tant qu’administrateur,, chauffeur, chef d'équipe et mécanicien je veux me déconnecter pour que je quitte l'application.}                             & Elevée            & Faible          \\
+    \textbf{US2}  & \parbox{9cm}{\centering En tant qu’administrateur, chauffeur, chef d'équipe et mécanicien je veux me déconnecter pour que je quitte l'application.}                  & Moyenne           & Moyen           \\
     \hline
-    \textbf{US3}  & \parbox{9cm}{\centering En tant qu’administrateur,, chauffeur, chef d'équipe et mécanicien je veux modifier mon profil.}                                                         & Elevée            & Faible          \\
+    \textbf{US3}  & \parbox{9cm}{\centering En tant qu’administrateur, chauffeur, chef d'équipe et mécanicien je veux modifier mon profil.}                                              & Moyenne           & Elevé           \\
     \hline
-    \textbf{US4}  & \parbox{9cm}{\centering En tant qu'administrateur, je veux pouvoir gérer les rôles des utilisateurs, afin de contrôler l'accès aux fonctionnalités de l'application}             & Elevée            & Faible          \\
+    \textbf{US4}  & \parbox{9cm}{\centering En tant qu'administrateur, je veux pouvoir gérer les rôles des utilisateurs, afin de contrôler l'accès aux fonctionnalités de l'application} & Elevée            & Elevé           \\
     \hline
-    \textbf{US5}  & \parbox{9cm}{\centering En tant qu'administrateur, je veux ajouter, supprimer et  visualiser les véhicules .}                                                                    & Elevée            & Faible          \\
+    \textbf{US5}  & \parbox{9cm}{\centering En tant qu’administrateur, je veux Gérer les utilisateurs pour que je puisse ajouter/modifier/supprimer des utilisateurs. }                  & Elevée            & Elevé           \\
     \hline
-    \textbf{US6}  & \parbox{9cm}{\centering En tant qu’administrateur, je veux Gérer les utilisateurs pour que je puisse ajouter/modifier/supprimer des utilisateurs. }                              & Elevée            & Faible          \\
-
 
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+    \textbf{US6}  & \parbox{9cm}{\centering En tant qu'administrateur, je veux ajouter, supprimer et  visualiser les véhicules .}                                                        & Moyenne           & Elevé           \\
     \hline
-    \textbf{US7}  & \parbox{9cm}{\centering En tant que Chef d'équipe je veux suivre le progrès et la localisation des voiture .}                                                                    & Elevée            & Faible          \\
+    \textbf{US7}  & \parbox{9cm}{\centering En tant que Chef d'équipe je veux suivre le progrès et la localisation des voiture .}                                                        & Moyenne           & Moyen           \\
     \hline
-    \textbf{US8}  & \parbox{9cm}{\centering En tant que Chef d'équipe je veux Créer des taches pour les chauffeurs et les mécanicien .}                                                              & Elevée            & Faible          \\
+    \textbf{US8}  & \parbox{9cm}{\centering En tant que Chef d’équipe je veux valider lestaches du mécanicien}                                                                           & Elevée            & Moyen           \\
     \hline
-    \textbf{US9}  & \parbox{9cm}{\centering En tant que Mécanicien je veux Consulter les détails des interventions .}                                                                                & Elevée            & Faible          \\
+    \textbf{US9}  & \parbox{9cm}{\centering En tant que Chef d'équipe je veux Créer des taches pour les chauffeurs et les mécanicien .}                                                  & Elevée            & Elevé           \\
     \hline
-    \textbf{US10} & \parbox{9cm}{\centering En tant que Chauffeur je veux consulter la checklist avant et aprés le départ . }                                                                        & Elevée            & Faible          \\
-
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+    \textbf{US10} & \parbox{9cm}{\centering En tant que Mécanicien je veux Consulter les détails des interventions .}                                                                    & Moyenne           & Faible          \\
     \hline
-    \textbf{US11} & \parbox{9cm}{\centering En tant qu’administrateur, chauffeur, mécanicien ou chef d’équipe, je veux recevoir des notifications pour être informé en temps réel des mises à jour.} & Elevée            & Faible          \\
+    \textbf{US11} & \parbox{9cm}{\centering En tant que Chauffeur je veux consulter la checklist avant et aprés le départ . }                                                            & Moyenne           & Faible          \\
     \hline
   \end{tabular}
 \end{table}
@@ -185,22 +176,28 @@ Le backlog du produit (Table 2.1) montre la liste des exigences et des fonctionn
 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{table}[htbp]
-  \centering
-  \renewcommand{\arraystretch}{4.15} % Facteur d'étirement des lignes
-  \begin{tabular}{|c|c|c|c|}
 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}[H]
+  \centering
+  \renewcommand{\arraystretch}{3.5} % Facteur d'étirement des lignes
+  \begin{tabular}{|c|c|c|c|}
     \hline
-    \textbf{US12} & \parbox{11cm}{\centering En tant que Mécanicien je veux Générer des rapports pour que je puisse documenter les détails de chaque intervention.}                                       & Elevée & Faible \\
+    \textbf{US12} & \parbox{9cm}{\centering En tant que chauffeur, je veux planifier les déplacements pour optimiser les itinéraires et les arrêts.}                                                      & Faible  & Faible \\
     \hline
-    \textbf{US13} & \parbox{11cm}{\centering En tant qu’administrateur, je veux avoir accès à un tableau de bord pour que je puisse superviser l'ensemble des opérations.}                                & Elevée & Faible \\
+    \textbf{US13} & \parbox{9cm}{\centering En tant qu’administrateur, chauffeur, mécanicien ou chef d’équipe, je veux recevoir des notifications pour être informé en temps réel des mises à jour.}      & Moeynne & Moyen  \\
     \hline
-    \textbf{US14} & \parbox{11cm}{\centering En tant que Chef d'équipe, je veux un tableau de bord pour suivre les déplacements en temps réel des chauffeurs et gérer les missions de manière proactive.} & Elevée & Faible \\
+    \textbf{US14} & \parbox{11cm}{\centering En tant que Mécanicien je veux Générer des rapports pour que je puisse documenter les détails de chaque intervention.}                                       & Moeynne & Moyen  \\
     \hline
-    \textbf{US15} & \parbox{11cm}{\centering En tant que Chauffeur je veux Consulter un tableau de bord pour que je puisse avoir une vue claire de mes missions actuelles}                                & Elevée & Faible \\
+    \textbf{US15} & \parbox{11cm}{\centering En tant qu’administrateur, je veux avoir accès à un tableau de bord pour que je puisse superviser l'ensemble des opérations.}                                & Elevée  & Elevé  \\
     \hline
-    \textbf{US16} & \parbox{11cm}{\centering En tant que Mécanicien, je veux consulter un tableau de bord pour avoir une vue d'ensemble des opérations de maintenance.}                                   & Elevée & Faible \\
+    \textbf{US16} & \parbox{11cm}{\centering En tant que Chef d'équipe, je veux un tableau de bord pour suivre les déplacements en temps réel des chauffeurs et gérer les missions de manière proactive.} & Elevée  & Elevé  \\
+    \hline
+    \textbf{US17} & \parbox{11cm}{\centering En tant que Chauffeur je veux Consulter un tableau de bord pour que je puisse avoir une vue claire de mes missions actuelles}                                & Elevée  & Elevé  \\
+    \hline
+    \textbf{US18} & \parbox{11cm}{\centering En tant que Mécanicien, je veux consulter un tableau de bord pour avoir une vue d'ensemble des opérations de maintenance.}                                   & Elevée  & Elevé  \\
     \hline
   \end{tabular}
   \bigskip
@@ -214,7 +211,7 @@ Le backlog du produit (Table 2.1) montre la liste des exigences et des fonctionn
 %______________________________________________________________________________________________
 
 
-\newpage{}
+
 \section{Conception de l'application}
 
 Dans cette section, nous présentons les prototypes de l'applications , la charte graphique, le plan de l'application ainsi que le diagramme de classes du domaine et le diagramme de gantt.
@@ -223,43 +220,43 @@ Dans cette section, nous présentons les prototypes de l'applications , la chart
 
 
 Les figure 2.3 et 2.4 illustrent les ecrans de chargement dans l'application.
-
+\newpage
 \begin{figure}[h!]
   \centering
   \begin{minipage}[t]{0.60\textwidth}
     \centering
-    \includegraphics[width=1\textwidth, height=6cm]{chap2.images/splash web.png}
+    \includegraphics[width=1\textwidth, height=6.5cm]{chap2.images/splash web.png}
     \caption{Ecran de chargement - Web}
   \end{minipage}
   \hfill
   \begin{minipage}[t]{0.38\textwidth}
     \centering
-    \includegraphics[width=0.6\textwidth, height=6cm]{chap2.images/splash mob.png}
+    \includegraphics[width=0.6\textwidth, height=6.5cm]{chap2.images/splash mob.png}
     \caption{\centering{Ecran de chargement - Mobile}}
   \end{minipage}
 \end{figure}
 
 
-\newpage
+\vspace{1cm}
 Les figure 2.5 et 2.6 illustrent les  pages permettant a l'utilisateur de s'authentifier dans l'application.
 
 \begin{figure}[h!]
   \centering
   \begin{minipage}[t]{0.60\textwidth}
     \centering
-    \includegraphics[width=1\textwidth, height=6cm]{chap2.images/prot authentification.png}
+    \includegraphics[width=1\textwidth, height=6.5cm]{chap2.images/prot authentification.png}
     \caption{Interface d'authentification - Web}
   \end{minipage}
   \hfill
   \begin{minipage}[t]{0.38\textwidth}
     \centering
-    \includegraphics[width=0.6\textwidth, height=6cm]{chap2.images/prot authentification mob.png}
+    \includegraphics[width=0.6\textwidth, height=6.5cm]{chap2.images/prot authentification mob.png}
     \caption{\centering{Interface d'authentification - Mobile}}
   \end{minipage}
 \end{figure}
 
-\vspace{1.2cm}
 
+\newpage
 Les figure 2.7 et 2.8 illustrent les  pages permettant a l'utilisateur de modifier leur profils.
 
 \begin{figure}[h!]
@@ -277,37 +274,36 @@ Les figure 2.7 et 2.8 illustrent les  pages permettant a l'utilisateur de modifi
   \end{minipage}
 \end{figure}
 
-
-
-
-
-\newpage
+\vspace{1cm}
 En plus, les figure 2.9 et 2.10 illustrent les interfaces de gestion des utilisateurs par l'administrateur.
 \begin{figure}[h!]
   \centering
   \includegraphics[width=0.9\textwidth, height=8cm]{chap2.images/prot gestion user.png}
   \caption{Interface de gestion des utilisateurs}
 \end{figure}
+
+\newpage
+
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.9\textwidth, height=8cm]{chap2.images/prot gestion user.png}
+  \includegraphics[width=0.9\textwidth, height=8cm]{chap2.images/PROT ADD USER.png}
   \caption{Interface de création d'un nouvel utilisateur}
 \end{figure}
 
-\newpage
-Les figure 2.11 et 2.12 illustrent les  pages permettant ....
+\vspace{1cm}
+Les figure 2.11 et 2.12 illustrent les interfaces du map pour l'admin et le chauffeur
 
 \begin{figure}[h!]
   \centering
   \begin{minipage}[t]{0.60\textwidth}
     \centering
-    \includegraphics[width=1\textwidth, height=6cm]{chap2.images/maps web.png}
-    \caption{map- Web}
+    \includegraphics[width=1.1\textwidth, height=7cm]{chap2.images/maps web.png}
+    \caption{map - Web}
   \end{minipage}
   \hfill
   \begin{minipage}[t]{0.38\textwidth}
     \centering
-    \includegraphics[width=0.6\textwidth, height=6cm]{chap2.images/map mobile.png}
+    \includegraphics[width=0.6\textwidth, height=7cm]{chap2.images/map mobile.png}
     \caption{\centering{map - Mobile}}
   \end{minipage}
 \end{figure}
@@ -379,65 +375,105 @@ Le flux utilisateur est une représentation visuelle du chemin qu'un utilisateur
 
 
 \newpage
+
 \subsubsection{Flux administrateur}
+Ce diagramme montre les principales fonctionnalités accessibles à un administrateur dans l'interface admin, divisées en quatre sections :
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=1\textwidth,height=17cm]{chap2.images/org admin.png}
+  \includegraphics[width=1\textwidth,height=14cm]{chap2.images/org admin2.png}
   \caption{Organigramme des interfaces du l'administrateur }
 \end{figure}
 
+\noindent
+\textbf{Gérer Utilisateurs :}\\
+-Modifier, ajouter, ou supprimer des utilisateurs.\\
+-Lors de l'ajout, choisir le type d'utilisateur (Chauffeur, Mécanicien, Chef d'équipe) et envoyer les coordonnées.\\
+\textbf{Gérer Véhicules :}\\
+-Modifier, ajouter, ou supprimer des véhicules.\\
+\textbf{Dashboard :}\\
+-Choisir entre un dashboard global pour une vue d'ensemble et un dashboard détaillé pour des analyses spécifiques.\\
+\textbf{Notifications :}\\
+-Gérer et visualiser des notifications de maintenance, de demandes, et d'accidents.\\
 
-\newpage
+%_________________________________________________________________________________________________
+
 \subsubsection{Flux chauffeur}
+Ce diagramme montre les principales fonctionnalités accessibles à un chauffeur dans l'application.\\
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=1\textwidth,height=17cm]{chap2.images/org chauffeur.png}
+  \includegraphics[width=1\textwidth,height=12cm]{chap2.images/org chauffeur.png}
   \caption{Organigramme des interfaces du chauffeur}
 \end{figure}
 
+\noindent
+\textbf{QR Code :}\\
+-Scanner le code QR pour démarrer une tâche.\\
+-Effectuer une checklist des tâches à réaliser.\\
+-Confirmer les tâches effectuées pour terminer la tâche.\\
+\textbf{Dashboard :}\\
+-Choisir entre différents types de données à consulter, telles que :Kilométrage, Heures sur route...\\
+\textbf{Planification :}\\
+-Planifier des destinations et le remplissage de gaz.\\
+\textbf{Mon Compte :}\\
+-Modifier le profil ou le compte.\\
+-Se déconnecter de l'interface.\\
+
+%_________________________________________________________________________________________________
 \newpage
 \subsubsection{Flux mécanicien}
+Ce diagramme montre les principales fonctionnalités accessibles à un mécanicien dans l'interface utilisateur dédiée.\\
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=1\textwidth,height=17cm]{chap2.images/org mecanicien.png}
+  \includegraphics[width=1\textwidth,height=12cm]{chap2.images/org mecanicien.png}
   \caption{Organigramme des interfaces  du mécanicien}
 \end{figure}
+\newline
+\noindent
+\textbf{Dashboard :}\\
+-Choisir le type de tâche à consulter.\\
+\textbf{Les Tâches :}\\
+-Choisir entre différentes tâches à accomplir, telles que : Maintenance, Réparation ou Inspection\\
+-Effectuer la maintenance et vérifier les outils ou pièces nécessaires.\\
+Si les outils/pièces sont disponibles, accomplir la tâche.\\
+Si les outils/pièces ne sont pas disponibles, signaler la non-disponibilité.\\
+\textbf{Rapport d'Activité :}\\
+-Créer un rapport d'une tâche effectuée.\\
+\textbf{Mon Compte :}\\
+-Modifier le profil ou le compte.\\
+-Se déconnecter de l'interface.\\
 
-\newpage
+%_________________________________________________________________________________________________
+
+
 \subsubsection{Flux chef d'équipe}
+Ce diagramme montre les principales fonctionnalités accessibles à un chef d'équipe dans l'interface utilisateur dédiée.\\
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=1\textwidth,height=17cm]{chap2.images/org chef d'equipe.png}
+  \includegraphics[width=1\textwidth,height=13cm]{chap2.images/org chef d'equipe.png}
   \caption{Organigramme des interfaces du chef d'équipe}
 \end{figure}
-
-
-
+\newline
+\noindent
+\textbf{Supervision :}\\
+-Contrôler : Suivre la localisation et les progrès des chauffeurs et des mécaniciens.\\
+\textbf{Dashboard :}\\
+-Consulter les données spécifiques des chauffeurs et des mécaniciens.\\
+\textbf{Planification :}\\
+-Création des tâches : Planifier les tâches pour les chauffeurs et les mécaniciens.\\
+\textbf{Mon Compte :}\\
+-Modifier le profil ou le compte.\\
+-Se déconnecter de l'interface.\\
+\textbf{Notifications :}\\
+-Gérer et visualiser les notifications importantes : Rapport / Tâche terminée
 %_________________________________________________________________________________________________________
-
-\newpage
-\subsection{Diagramme de classe du domaine}
-
-La figure 2.21 montre le diagramme de classes du domaine de notre application.
-
-
-
-
-
-
-
-
-%_________________________________________________________________________________________________________
-
-
 \newpage
 \subsection{Diagramme de Gantt }
 
-Par cette figure 2.20 nous présentons une planification previsionnelle du projet .
+Par cette figure 2.21 nous présentons une planification previsionnelle du projet .
 
 \begin{figure}[ht!]
   \centering
-  \includegraphics[width=1\textwidth,height=11cm]{chap2.images/diagramme de gantt.png}
+  \includegraphics[width=1\textwidth,height=10cm]{chap2.images/diagramme de gantt.jpeg}
   \caption{Diagramme de Gantt}
 \end{figure}
 

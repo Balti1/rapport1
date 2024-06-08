@@ -4,26 +4,28 @@
 \section*{Introduction}
 \addcontentsline{toc}{section}{Introduction}
 
-Dans ce sprint, nous nous concentrons sur le développement des fonctionnalités de création et de consultation des tâches dans notre application. Nous avons élaboré un backlog, des cas d'utilisation, des diagrammes de séquence et des descriptions textuelles pour guider notre travail. Nous avons également conçu un diagramme de classe participantes pour planifier l'implémentation des fonctionnalités, ainsi que des captures d'écran des interfaces utilisateur. Nous examinerons également le burndown chart et le task board pour suivre l'avancement du sprint et discuterons de la mise en œuvre des tests unitaires pour garantir la qualité du code..
+Dans ce sprint, nous nous concentrons sur le développement des fonctionnalités de création et de consultation des tâches dans notre application. Nous avons élaboré un backlog, des cas d'utilisation, des diagrammes de séquence et des descriptions textuelles pour guider notre travail. Nous avons également conçu un diagramme de classe participantes pour planifier l'implémentation des fonctionnalités, ainsi que des captures d'écran des interfaces utilisateur. Nous examinerons également le burndown chart et le task board pour suivre l'avancement du sprint et discuterons de la mise en œuvre des tests unitaires pour garantir la qualité du code.
 %________________________________________________________________________________________________________________
 
-\section{Sprint Backlog}
+\section{Backlog du sprint 2}
 
 
-\begin{table}[htbp]
+\begin{table}[H]
   \centering
-  \renewcommand{\arraystretch}{1.2} % Facteur d'étirement des lignes
-  \begin{tabular}{|c|c|p{7.8cm}|p{1cm}|}
+  \renewcommand{\arraystretch}{1} % Facteur d'étirement des lignes
+  \begin{tabular}{|c|c|p{7.8cm}|c|}
     \hline
-    \textbf{ID}  & \textbf{Fonctionnalités} & \centering \textbf{User Story}                                                                                                                                  & \textbf {Story points} \\
+    \textbf{ID}   & \textbf{Fonctionnalités} & \centering \textbf{User Story}                                                                                                                      & \textbf {Story points} \\
     \hline
-    \textbf{US6} & Gestion des véhicules    & En tant qu'administrateur, je veux ajouter, supprimer et visualiser les véhicules pour que la gestion du parc soit efficace et à jour.                          & 5                      \\
+    \textbf{US6}  & Gestion des véhicules    & En tant qu'administrateur, je veux ajouter, supprimer et visualiser les véhicules pour que la gestion du parc soit efficace et à jour.              & 5                      \\
     \hline
-    \textbf{US7} & Créations des taches     & En tant que Chef d'équipe je veux Créer des taches pour les chauffeurs et les mécanicien.                                                                       & 5                      \\
+    \textbf{US7}  & Créations des taches     & En tant que Chef d'équipe je veux Créer des taches pour les chauffeurs et les mécanicien.                                                           & 5                      \\
     \hline
-    \textbf{US8} & Consultation des taches  & En tant que Chauffeur je veux consulter la checklist pour que je puisse vérifier tous les éléments essentiels et confirmer l'exécution des tâches .             & 3                      \\
+    \textbf{US8}  & Consultation des taches  & En tant que Chauffeur je veux consulter la checklist pour que je puisse vérifier tous les éléments essentiels et confirmer l'exécution des tâches . & 3                      \\
     \hline
-    \textbf{US9} & Consultation des taches  & En tant que Mécanicien je veux Consulter les détails des interventions pour que je puisse obtenir toutes les informations nécessaires sur les tâches assignées. & 3                      \\
+    \textbf{US9}  & Consultation des taches  & En tant que Mécanicien je veux Consulter les détails des interventions pour que je puisse obtenir toutes les informations sur les tâches assignées. & 3                      \\
+    \hline
+    \textbf{US10} & Validation des taches    & En tant que Chef d'équipe je veux valider les taches du mécanicien                                                                                  & 3                      \\
     \hline
   \end{tabular}
   \caption{Backlog du sprint 2}
@@ -53,7 +55,7 @@ Dans cette section, nous détaillerons le processus d'analyse et de conception p
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=1\textwidth,height=5.5cm]{chap4.images/raf Gérer les véhicules.png}
+  \includegraphics[width=1\textwidth,height=6cm]{chap4.images/raf Gérer les véhicules.png}
   \caption{Raffinement de cas d’utilisation « Gérer les véhicues »}
 
 \end{figure}
@@ -68,13 +70,13 @@ Dans cette section, nous détaillerons le processus d'analyse et de conception p
   \renewcommand{\arraystretch}{1.2} % Facteur d'étirement des lignes
   \begin{tabular}{|p{4cm}|p{9cm}|}
     \hline
-    \textbf{Cas d'utilisation}   & Ajouter des Véhicules                                                                          \\
+    \textbf{Cas d'utilisation}   & Ajouter des Véhicules                                                                    \\
     \hline
-    \textbf{Acteur}              & Administrateur                                                                                 \\
+    \textbf{Acteur}              & Administrateur                                                                           \\
     \hline
-    \textbf{Pré-condition}       & 1- L'administrateur doit étre connecté et a les droits nécessaires pour ajouter des véhicules. \\
+    \textbf{Pré-condition}       & 1- L'administrateur doit étre connecté .                                                 \\
     \hline
-    \textbf{Post-condition}      & Le véhicule est ajouté à la base de données.                                                   \\
+    \textbf{Post-condition}      & Le véhicule est ajouté à la base de données.                                             \\
     \hline
     \textbf{Scenario nominal}    & 1- L'administrateur accède à la section "Gestion des Véhicules" dans le système.\newline
 
@@ -86,7 +88,7 @@ Dans cette section, nous détaillerons le processus d'analyse et de conception p
 
     5- Le système ajoute le véhicule à la base de données. \newline
 
-    6- Le systéme affiche un message de confirmation indiquant que le véhicule a été ajouté avec succès.                          \\
+    6- Le systéme affiche un message de confirmation indiquant que le véhicule a été ajouté avec succès.                    \\
 
     \hline
     \textbf{Scénario alternatif} & A1 Immatriculation déjà utilisée : \newline
@@ -99,7 +101,7 @@ Dans cette section, nous détaillerons le processus d'analyse et de conception p
 
     A2 Ajout du véhicule échoué dans la base de données :\newline
 
-    L'echainement A2 démarre au point 5 du scenario nominal.                                                                      \\
+    L'echainement A2 démarre au point 5 du scenario nominal.                                                                \\
   \end{tabular}
 
 \end{table}
@@ -125,11 +127,11 @@ Dans cette section, nous détaillerons le processus d'analyse et de conception p
 \subsection{Diagramme de séquence système du cas d’utilisation « Ajouter des véhicules »}
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=1\textwidth,height=18cm]{chap4.images/dss ajout vehicules.png}
+  \includegraphics[width=1\textwidth,height=18cm]{chap4.images/dss ajouter vehicule.png}
   \caption{Raffinement de cas d’utilisation « Ajout des véhicules »}
 
 \end{figure}
-%________________________________________________________________________________________________________________
+
 
 %________________________________________________________________________________________________________________
 \newpage
@@ -169,11 +171,13 @@ Dans cette section, nous détaillerons le processus d'analyse et de conception p
 
     2- Le chef d'équipe choisit une date pour laquelle les tâches seront planifiées.\newline
 
-    3- Le système affiche une liste des mécaniciens disponibles pour cette date. \newline
+    3-  Le système vérifie la disponibilité de cette date.\newline
 
-    4- Le chef d'équipe sélectionne un mécanicien parmi la liste pour lui assigner une tâche.\newline
+    4- Le système affiche une liste des mécaniciens disponibles pour cette date.\newline
 
-    5- Le chef d'équipe saisit les détails de la tâche, y compris le titre, la description.                                   \\
+    5- Le chef d'équipe sélectionne un mécanicien parmi la liste pour lui assigner une tâche.\newline
+
+    6- Le chef d'équipe saisit les détails de la tâche, y compris le titre, la description.                                   \\
   \end{tabular}
 
 \end{table}
@@ -189,15 +193,14 @@ Dans cette section, nous détaillerons le processus d'analyse et de conception p
 
     7- Le système enregistre la tâche créée et envoie une notification au mécanicien assigné.                                   \\
     \hline
-    \textbf{Scénario alternatif} &     .\newline
+    \textbf{Scénario alternatif} & A1 Date non disponible \newline
 
-    .\newline
+    L’enchaînement A1 démarre au point 3 du scénario nominal.\newline
 
-    .\newline
+    4- un message d’erreur indiquant que pas de mécanicien disponible pour cette date.\newline
 
-    .\newline
-    
-    .\\                                                                                        
+    Le scénario nominal reprend au point 2.                                                                                     \\
+
 
     \hline
   \end{tabular}
@@ -211,56 +214,55 @@ Dans cette section, nous détaillerons le processus d'analyse et de conception p
 
 \begin{table}[H]
   \centering
-  \renewcommand{\arraystretch}{1} % Facteur d'étirement des lignes
+  \renewcommand{\arraystretch}{1.2}
   \begin{tabular}{|p{4cm}|p{9cm}|}
     \hline
-    \textbf{Cas d'utilisation} & Créer des Tâches pour les Chauffeurs                                                                    \\
+    \textbf{Cas d'utilisation} & Créer des Tâches pour les Chauffeurs                                                              \\
     \hline
-    \textbf{Acteur}            & Chef d'Équipe                                                                                           \\
+    \textbf{Acteur}            & Chef d'Équipe                                                                                     \\
     \hline
-    \textbf{Pré-condition}     & 1- Le chef d'équipe est authentifié et a accès à l'interface de gestion des tâches..\newline
+    \textbf{Pré-condition}     & 1- Le chef d'équipe est authentifié .\newline
 
-    2- Les informations sur les véhicules et les chauffeurs sont disponibles dans le système..                                           \\
+    2- Les véhicules et les chauffeurs choisis sont disponibles dans le système.                                                   \\
     \hline
-    \textbf{Post-condition}    & La tâche est correctement créée et assignée au chauffeur avec toutes les informations nécessaires       \\
+    \textbf{Post-condition}    & La tâche est correctement créée et assignée au chauffeur avec toutes les informations nécessaires \\
     \hline
     \textbf{Scenario nominal}  & 1- Le chef d'équipe accède à l'interface de création des tâches pour les chauffeurs.\newline
 
 
-    2- Il sélectionne le modèle de véhicule souhaité pour la tâche.\\
-
-    
+    2- Le chef sélectionne le modèle de véhicule souhaité pour la tâche.                                                           \\
   \end{tabular}
 \end{table}
 
 
 \begin{table}[H]
   \centering
-  \renewcommand{\arraystretch}{1} % Facteur d'étirement des lignes
+  \renewcommand{\arraystretch}{1.1}
   \begin{tabular}{|p{4cm}|p{9cm}|}
 
-                                 &   3- Il choisit la date pour laquelle la tâche est à planifier.\newline
+                                 & 3- Le chef choisit la date pour laquelle la tâche est à planifier.\newline
 
-                                 4- Le système affiche les véhicules disponibles qui correspondent au modèle sélectionné et sont libres à la date choisie.\newline
-                             
-                                 5- Le chef d'équipe sélectionne un véhicule par sa matricule, puis saisit l'ID de la tâche et une description détaillée de celle-ci. \newline
-                                
-                                6- Le chef d'équipe recherche les chauffeurs qualifiés pour conduire le modèle de véhicule choisi et qui sont disponibles à la date spécifiée.\newline
+    4- Le système affiche les véhicules disponibles qui correspondent au modèle sélectionné et sont libres à la date choisie.\newline
 
-    7- Il assigne la tâche à un chauffeur sélectionné et met à jour le QR code du véhicule pour refléter les détails de la nouvelle tâche.\newline
+    5- Le chef d'équipe sélectionne un véhicule par sa matricule, puis saisit l'ID de la tâche et une description détaillée de celle-ci. \newline
 
-    8- Le système enregistre la tâche avec toutes les informations nécessaires et informe le chauffeur assigné.                                                                           \\
+    6- Le chef d’équipe recherche les chauffeurs qualifiés pour conduire le modèle de véhicule choisi et qui sont disponibles à la date spécifiée.\newline
+
+    7- Le système vérifie les choix du chef d’équipe.\newline
+
+    8- Le chef assigne la tâche à un chauffeur sélectionné et met à jour le QR code du véhicule pour refléter les détails de la nouvelle tâche.\newline
+
+    9- Le système enregistre la tâche avec toutes les informations nécessaires et informe le chauffeur assigné. \\
 
     \hline
-    \textbf{Scénario alternatif} &  .\newline
+    \textbf{Scénario alternatif} & A1 Chauffeur qualifié non disponible \newline
 
-    .\newline
+    L’enchaînement A1 démarre au point 7 du scénario nominal.\newline
 
-    .\newline
+    4- un message d’erreur pour refaire le choix du chauffeur.\newline
 
-    .\newline
-    
-    .\\
+    Le scénario nominal reprend au point 6.                                                                     \\
+
 
     \hline
   \end{tabular}
@@ -271,12 +273,12 @@ Dans cette section, nous détaillerons le processus d'analyse et de conception p
 
 
 \newpage
-\subsection{Diagramme de séquence système du cas d’utilisation «Créer les taches»}
+\subsection{Diagramme de séquence système du cas d’utilisation «Créer les tâches pour les chauffeurs»}
 
 \begin{figure}[ht!]
   \centering
-  \includegraphics[width=1\textwidth,height=19cm]{chap4.images/dss creer taches.png}
-  \caption{ Diagramme de séquence système du cas d’utilisation «Créer les taches» }
+  \includegraphics[width=1\textwidth,height=19cm]{chap4.images/dss créer taches des chauffeur.png}
+  \caption{ Diagramme de séquence système du cas d’utilisation «Créer les tâches pour les chauffeurs» }
 \end{figure}
 
 %________________________________________________________________________________________________________________
@@ -293,9 +295,9 @@ Dans cette section, nous détaillerons le processus d'analyse et de conception p
 
 \subsection{Description textuelle du cas d’utilisation « Consulter les taches pour les chauffeurs »}
 
-\begin{table}[htbp]
+\begin{table}[H]
   \centering
-  \renewcommand{\arraystretch}{1.7} % Facteur d'étirement des lignes
+  \renewcommand{\arraystretch}{1} % Facteur d'étirement des lignes
   \begin{tabular}{|p{4cm}|p{9cm}|}
     \hline
     \textbf{Cas d'utilisation}    & Consulter les taches des chauffeurs                                                                                 \\
@@ -337,15 +339,13 @@ Dans cette section, nous détaillerons le processus d'analyse et de conception p
 
 
     \hline
-    \textbf{Scénario alternatif} & .\newline
+    \textbf{Scénario alternatif} & A1 Absence de Checklist \newline
 
-    . \newline
+    L'enchainement démarre au point 3 du scénario nominal.\newline
 
-    .\newline
+    4- Un message d'erreur s'affiche pour réaccéder à la checklist. \newline
 
-    .\newline
-
-    .                                                                                                                                                                                            \\
+    Le scénario reprend au point 2.                                                                                                                                                              \\                                                                                                                                                        
 
     \hline
   \end{tabular}
@@ -424,15 +424,13 @@ Dans cette section, nous détaillerons le processus d'analyse et de conception p
 
 
     \hline
-    \textbf{Scénario alternatif} & .\newline
+    \textbf{Scénario alternatif} & A1 Absence de taches \newline
 
-    . \newline
+    L'enchainement démarre au point 3 du scénario nominal.\newline
 
-    .\newline
+    4- Un message d'erreur s'affiche pour réaccéder à la checklist. \newline
 
-    .\newline 
-    
-    .\\
+    Le scénario reprend au point 2.                                                                                             \\                                                                                           
 
     \hline
   \end{tabular}
@@ -443,13 +441,20 @@ Dans cette section, nous détaillerons le processus d'analyse et de conception p
 %________________________________________________________________________________________________________________
 
 
+
 \newpage
 \section{Diagramme de classes du sprint 2}
+
+\begin{figure}[ht!]
+  \centering
+  \includegraphics[width=1.1\textwidth,height=11cm]{chap4.images/class sprint 2.png}
+  \caption{Diagramme de classes du sprint 2}
+
+\end{figure}
 
 %________________________________________________________________________________________________________________
 \newpage
 \section{ Réalisation}
-\bigskip
 
 Dans cette section, nous présentons les avancées réalisées durant le sprint 2. À travers des captures d’écran et des descriptions détaillées, nous illustrons les nouvelles fonctionnalités intégrées et les améliorations apportées aux interfaces existantes.
 
@@ -458,35 +463,36 @@ Dans cette section, nous présentons les avancées réalisées durant le sprint 
 \subsection{Interface de création des taches}
 
 Cette interface permet au chef d'équipe de créer des tâches pour les chauffeurs et les mécaniciens. Le chef d'équipe peut choisir le type de tâche à créer en sélectionnant soit une tâche pour un chauffeur, soit une tâche pour un mécanicien.
-\bigskip
+
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.9\textwidth]{chap4.images/creer taches.png}
+  \includegraphics[width=0.9\textwidth,height=6.5cm]{chap4.images/creer taches.png}
   \caption{interface de création des taches}
 
 \end{figure}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newpage
+
 Cette interface permet au chef d'équipe de créer des tâches spécifiques pour les chauffeurs. Le processus inclut la sélection du modèle de voiture, la date de la tâche, une description détaillée de la tâche, et enfin, l'assignation de la tâche à un chauffeur spécifique. Cette capture d'écran montre les différentes options et champs à remplir pour une création de tâche complète et précise
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.9\textwidth]{chap4.images/Création des taches chauff.png}
+  \includegraphics[width=0.9\textwidth,height=6.5cm]{chap4.images/Création des taches mec.png}
   \caption{Création des taches pour les chauffeurs}
 
+  \newpage
 \end{figure}
 \bigskip
 Cette interface est dédiée à la création de tâches pour les mécaniciens. Le chef d'équipe peut sélectionner la date de la tâche, puis visualiser la liste des mécaniciens disponibles pour cette date. Ensuite, il peut assigner la tâche à un mécanicien particulier. Cette capture d'écran met en évidence les étapes de sélection et d'assignation, offrant une vue claire et fonctionnelle pour la gestion des interventions mécaniques.
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.9\textwidth]{chap4.images/Création des taches mec.png}
+  \includegraphics[width=0.9\textwidth]{chap4.images/Création des taches chauff.png}
   \caption{Création des taches pour les mécaniciens}
 
 \end{figure}
 %________________________________________________________________________________________________________________
-\newpage
+
 \subsection{Consultation du checklist du chauffeur}
 
 \begin{figure}[htbp]
@@ -498,11 +504,12 @@ Cette interface est dédiée à la création de tâches pour les mécaniciens. L
   \hfill
   \begin{minipage}{0.39\textwidth}
     \centering
-    \includegraphics[width=0.8\textwidth,height=7cm]{chap4.images/consultation du checklist.png}
+    \includegraphics[width=0.8\textwidth,height=8cm]{chap4.images/consultation du checklist.png}
     \caption{interface de consultation du checklist pour les chauffeurs }
   \end{minipage}
 \end{figure}
 
+\newpage
 
 \subsection{Consulation des taches du mécanicien }
 
@@ -515,40 +522,54 @@ Cette interface est dédiée à la création de tâches pour les mécaniciens. L
   \hfill
   \begin{minipage}{0.39\textwidth}
     \centering
-    \includegraphics[width=0.8\textwidth,height=7cm]{chap4.images/consulation des taches.png}
+    \includegraphics[width=0.8\textwidth,height=7.5cm]{chap4.images/consulation des taches.png}
+    \caption{interface de consulation des taches pour les mécaniciens }
+  \end{minipage}
+\end{figure}
+\bigskip
+\subsection{Validation des taches du mécanicien par le chef d'équipe }
+
+\begin{figure}[htbp]
+  \centering
+  \begin{minipage}{0.58\textwidth}
+    \raggedright
+    Cette interface permet au chef d'équipe de confirmer les tâches effectuées par les mécaniciens. Elle affiche une liste des tâches en attente de validation. Chaque tâche est présentée  par ca description et Le nom du mécanicien responsable de la tâche.\\
+
+    Le chauffeur, après avoir vérifié sur le terrain l'accomplissement de la tâche, il peut confirmer la tâche en appuyant sur le bouton "Confirm Tache" correspondant.
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.39\textwidth}
+    \centering
+    \includegraphics[width=0.8\textwidth,height=7.5cm]{chap4.images/valider taches.png}
     \caption{interface de consulation des taches pour les mécaniciens }
   \end{minipage}
 \end{figure}
 
 
-
-
 %________________________________________________________________________________________________________________
 
-
+\newpage
 \section{Rétrospective}
 Dans cette rétrospective du Sprint 2, nous évaluerons les performances de notre équipe en utilisant le burndown chart et le task board. Ces outils nous aident à identifier les succès, les défis rencontrés, et les possibilités d'amélioration pour les prochains sprints.
-\newpage
+
 \subsection{Burdown Chart}
 Nous avons planifié un sprint de 3 semaines, avec une moyenne de 6 heures de travail par jour.
 
-\bigskip
+
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=1\textwidth, height=8.5cm]{chap4.images/Burndown chart sprint 2.png}
+  \includegraphics[width=1\textwidth, height=6.7cm]{chap4.images/Burndown chart sprint 2.png}
   \caption{ Burdown Chart du Sprint 2}
 
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
 \subsection{Task Bord}
 
 La figure 4.14 présente le "Task Bord" correspondant au 9ème jour du sprint 2.
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.9\textwidth, height=8.5cm]{chap4.images/task board sprint 2.png}
+  \includegraphics[width=0.9\textwidth, height=6.7cm]{chap4.images/task board sprint 2.png}
   \caption{ Task board du Sprint 2 }
 
 \end{figure}
@@ -570,11 +591,12 @@ Nous présentons ci-dessous le code source et le résultat de deux cas de test :
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.8\textwidth, height=7cm]{chap4.images/source test.png}
+  \includegraphics[width=0.8\textwidth, height=5cm]{chap4.images/source test.png}
   \caption{ Code souce du test unitaire du cas d’utilisation « Créer taches » }
 
 \end{figure}
 
+\bigskip
 
 \begin{figure}[h!]
   \centering
@@ -582,7 +604,7 @@ Nous présentons ci-dessous le code source et le résultat de deux cas de test :
   \caption{ Resultat du test de réussite}
 
 \end{figure}
-
+\newpage
 \begin{figure}[h!]
   \centering
   \includegraphics[width=0.8\textwidth, height=7cm]{chap4.images/echec.png}

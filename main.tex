@@ -11,6 +11,9 @@
 \usepackage{lmodern}
 \usepackage{float}
 \usepackage{array}
+\usepackage{multirow}
+
+
 
 \title{Titre}% N'affecte pas la page titre, mais défini le nom de votre projet
 \author{Prénom Nom} % N'affecte pas la page titre, mais défini le nom de l'auteur(e) du projet
@@ -26,7 +29,7 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhead{}
-\lhead{\bfseries\leftmark}
+\lhead{\textit\leftmark}
 \cfoot{\bfseries\thepage}
 \setlength{\headheight}{15pt}
 \renewcommand{\headrulewidth}{1pt}
@@ -57,7 +60,13 @@
 \usepackage{pdfpages} 
 \usepackage{enumitem}
 \usepackage{microtype}
+\usepackage{tcolorbox}
+\usepackage{xcolor}
+
+
 %----------------------------------------------------------------
+
+\usepackage{arabtex}
 
 \begin{document}
 \input{Page1}
@@ -70,6 +79,8 @@
 \newpage
 \listoftables
 \newpage
+\input{acronymes.tex}
+
 
 
 
@@ -86,10 +97,11 @@
 \input{chap6}
 
 
-\input{conclusion generale.tex}
+\input{conclusion}
 
 
-
+\input{mathbib.tex}
+\input{Resumé.tex}
 
 
 

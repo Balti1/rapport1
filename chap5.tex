@@ -8,23 +8,23 @@ Le sprint 3 se concentre sur l'amélioration de la communication et de la visibi
 
 %________________________________________________________________________________________________________________
 
-\section{Sprint Backlog}
+\section{Backlog du sprint 3}
 
 \begin{table}[htbp]
     \centering
     \renewcommand{\arraystretch}{1.2} % Facteur d'étirement des lignes
     \begin{tabular}{|c|c|p{7.8cm}|p{1cm}|}
         \hline
-        \textbf{ID}  & \textbf{Fonctionnalités}       & \centering \textbf{User Story}                                                                                                                          & \textbf { Story points} \\
+        \textbf{ID}   & \textbf{Fonctionnalités}       & \centering \textbf{User Story}                                                                                                                          & \textbf { Story points} \\
         \hline
 
-        \textbf{US6} & Suivi en temps réel            & En tant que Chef d'équipe je veux suivre le progrès et la localisation des voiture .                                                                    & 8                       \\
+        \textbf{US11} & Suivi en temps réel            & En tant que Chef d'équipe je veux suivre le progrès et la localisation des voiture .                                                                    & 8                       \\
         \hline
-        \textbf{US7} & Planification des déplacements & En tant que chauffeur, je veux planifier des voyages pour optimiser mes itinéraires et mes arrêts.                                                      & 5                       \\
+        \textbf{US12} & Planification des déplacements & En tant que chauffeur, je veux planifier des voyages pour optimiser mes itinéraires et mes arrêts.                                                      & 5                       \\
         \hline
-        \textbf{US8} & Notifications                  & En tant qu’administrateur, chauffeur, mécanicien ou chef d’équipe, je veux recevoir des notifications pour être informé en temps réel des mises à jour. & 5                       \\
+        \textbf{US13} & Notifications                  & En tant qu’administrateur, chauffeur, mécanicien ou chef d’équipe, je veux recevoir des notifications pour être informé en temps réel des mises à jour. & 5                       \\
         \hline
-        \textbf{US9} & Création des rapports          & En tant que Mécanicien je veux Générer des rapports pour que je puisse documenter les détails de chaque intervention .                                  & 3                       \\
+        \textbf{US14} & Création des rapports          & En tant que Mécanicien je veux Générer des rapports pour que je puisse documenter les détails de chaque intervention .                                  & 3                       \\
         \hline
     \end{tabular}
     \caption{Backlog du sprint 3}
@@ -79,19 +79,18 @@ Les actions des utilisateurs nécessitent une authentification avant d'accéder 
 
         3- Les pins apparaissent en temps réel sur la carte du chef.                                                                                \\
         \hline
-        \textbf{Scenario nominal}  & 1- Le chauffeur s'authentifie dans l'application mobile (appel au cas d'utilisation "S'authentifier").\newline
+        \textbf{Scénario nominal}  & 1- Le chauffeur s'authentifie dans l'application mobile (appel au cas d'utilisation "S'authentifier").\newline
 
         2- Le chauffeur active le suivi GPS.\newline
 
-        3- Le chauffeur sélectionne le trajet optimal sur la carte .\newline
+        3- Le chauffeur planifie les déplacements avant son départ (appel au cas d’utilisation "Planifier les déplacements").\newline
 
-        4- Pendant le trajet, le chauffeur peut localiser et sélectionner une station de carburant à proximité du trajet prévu.\newline
+        4- Le chef s'authentifie dans l'application (appel au cas d'utilisation "S'authentifier").\newline
 
-        5- Toutes les actions sont mises à jour en temps réel sur la carte.
+        5- Le chef accède à l'interface de suivi en temps réel.\newline
 
-        6- Le chef s'authentifie dans l'application (appel au cas d'utilisation "S'authentifier").\newline
-
-        7- Le chef accède à l'interface de suivi en temps réel.                                                                                     \\
+        6- Le système vérifie la position actuelle du camion et l'affiche sur la carte.\newline
+        \\
     \end{tabular}
 
 \end{table}
@@ -107,14 +106,7 @@ Les actions des utilisateurs nécessitent une authentification avant d'accéder 
 
 
 
-                                     & 8- Le système vérifie la position actuelle du camion et l'affiche sur la carte.\newline
-
-
-
-        9- Le système vérifie l'emplacement, l'enregistre, et le marque sur la carte.\newline
-
-
-        10- Le chef voit l'emplacement marqué en temps réel sur la carte.                                                      \\
+                                     & 7- Le chef voit l'emplacement marqué en temps réel sur la carte. \\
 
 
         \hline
@@ -124,7 +116,7 @@ Les actions des utilisateurs nécessitent une authentification avant d'accéder 
 
         6- Un message d'erreur s'affiche, indiquant que la position GPS n'est pas disponible.. \newline
 
-        Le scénario nominal reprend au point 2.                                                                                \\
+        Le scénario nominal reprend au point 2.                                                         \\
 
         \hline
     \end{tabular}
@@ -135,7 +127,7 @@ Les actions des utilisateurs nécessitent une authentification avant d'accéder 
 
 
 %________________________________________________________________________________________________________________
-\newpage
+
 \subsection{Description textuelle du cas d’utilisation « Planifier les déplacements »}
 
 \begin{table}[htbp]
@@ -147,33 +139,35 @@ Les actions des utilisateurs nécessitent une authentification avant d'accéder 
         \hline
         \textbf{Acteur}              & Chauffeur                                                                                                  \\
         \hline
-        \textbf{Pré-condition}       & Le chauffeur doit être connecté à l'application et avoir accès à la carte interactive.                     \\
+        \textbf{Pré-condition}       & Le chauffeur doit être connecté à l'application  .                                                         \\
 
 
         \hline
         \textbf{Post-condition}      & Les détails du trajet choisi, des pauses et des arrêts pour le carburant sont enregistrés dans le système. \\
         \hline
-        \textbf{Scenario nominal}    & 1- Le chauffeur sélectionne le trajet optimal sur la carte .\newline
+        \textbf{Scénario nominal}    & 1- Le chauffeur sélectionne le trajet optimal sur la carte .\newline
 
-        2- Pendant le trajet, le chauffeur peut localiser et sélectionner une station de carburant à proximité du trajet prévu.\newline
+        2- Pendant le trajet, le chauffeur peut localiser les différentes stations de carburant à proximité du trajet prévu.\newline
 
-        3- Toutes les actions sont mises à jour en temps réel sur la carte.                                                                       \\
+        3- Le système vérifie le trajet, l'enregistre, et le marque sur la carte.\newline
+
+        4- Toutes les actions sont mises à jour en temps réel sur la carte.
+        \\
         \hline
-        \textbf{Scénario alternatif} & A1 Station de carburant fermée ou inaccessible: \newline
+        \textbf{Scénario alternatif} & A1 Erreur de vérification du trajet : \newline
 
-        l'enchainement A1 démarre au point 1 du scénario nominal.\newline
+        l'enchainement A1 démarre au point 3 du scénario nominal.\newline
 
-        2- le chauffeur recherche une autre station de carburant disponible à proximité sur la carte. \newline
+        4- Un message d'erreur s'affiche pour vérifier le trajet sélectionné. \newline
 
-        Le scénario nominal reprend au point 2.                                                                                                   \\
-
+        Le scénario nominal reprend au point 1.                                                                                                   \\
         \hline
     \end{tabular}
     \caption{Description textuelle du cas d’utilisation “ Planifier les déplacements ”}
-
 \end{table}
 
-\subsection{Diagramme de séquence système du cas d’utilisation « Planifier les déplacements »}
+
+
 %________________________________________________________________________________________________________________
 \newpage
 
@@ -196,7 +190,7 @@ Les actions des utilisateurs nécessitent une authentification avant d'accéder 
         \hline
         \textbf{Post-condition}    & L'utilisateur peut voir toutes les notifications.                                                        \\
         \hline
-        \textbf{Scenario nominal}  & 1- L'utilisateur s'authentifie dans l'application (appel au cas d'utilisation "S'authentifier").\newline
+        \textbf{Scénario nominal}  & 1- L'utilisateur s'authentifie dans l'application (appel au cas d'utilisation "S'authentifier").\newline
 
         2- L'utilisateur accède à l'interface de consultation des notifications.\newline
 
@@ -214,7 +208,7 @@ Les actions des utilisateurs nécessitent une authentification avant d'accéder 
 
 \begin{figure}[ht!]
     \centering
-    \includegraphics[width=1\textwidth,height=8cm]{chap5.images/notif activité.png}
+    \includegraphics[width=0.9\textwidth,height=10cm]{chap5.images/notif activité.png}
     \caption{ Diagramme d'activité du cas d’utilisation « Consulter Notifications » }
 \end{figure}
 
@@ -250,7 +244,7 @@ Les actions des utilisateurs nécessitent une authentification avant d'accéder 
 
         2- Les rapports existants s'affichent dans l'interface en dessous du formulaire de saisie.                                                    \\
         \hline
-        \textbf{Scenario nominal}  & 1- Le mécanicien s'authentifie dans l'application mobile (appel au cas d'utilisation "S'authentifier").\newline
+        \textbf{Scénario nominal}  & 1- Le mécanicien s'authentifie dans l'application mobile (appel au cas d'utilisation "S'authentifier").\newline
 
         2- Le mécanicien accède à l'interface de saisie des rapports.\newline
 
@@ -303,6 +297,13 @@ Les actions des utilisateurs nécessitent une authentification avant d'accéder 
 %________________________________________________________________________________________________________________
 \newpage
 \section{Diagramme de classes du sprint 3}
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=1.1\textwidth,height=12cm]{chap5.images/class sprint 3.png}
+    \caption{Diagramme de classes du sprint 3}
+
+\end{figure}
 
 
 %________________________________________________________________________________________________________________
@@ -388,12 +389,12 @@ L'interface web est principalement destinée au chef d'équipe et permet de cons
     \centering
     \begin{minipage}{0.58\textwidth}
         \raggedright
-        Cette interface permet au mécanicien d'entrer le matricule du véhicule et de rédiger un rapport. Deux boutons sont disponibles : "Importer image" pour ajouter une photo et "Sauvegarder" pour enregistrer le rapport.
+        Cette interface permet aux mécaniciens de saisir les informations d'un véhicule et de rédiger un rapport. Elle propose des champs pour l'ID du véhicule, la description du problème, le travail effectué et la signature du mécanicien. Des boutons permettent d'importer des photos et de sauvegarder le rapport.
     \end{minipage}
     \hfill
     \begin{minipage}{0.39\textwidth}
         \centering
-        \includegraphics[width=0.7\textwidth,height=5.6cm]{chap5.images/r1.png}
+        \includegraphics[width=0.7\textwidth,height=5.6cm]{chap5.images/r11.png}
         \caption{\centering Géneration de Rapport - Interface Initiale }
     \end{minipage}
 \end{figure}
@@ -402,12 +403,12 @@ L'interface web est principalement destinée au chef d'équipe et permet de cons
     \centering
     \begin{minipage}{0.58\textwidth}
         \raggedright
-        Le mécanicien a saisi le matricule et les détails du rapport dans cette interface. Les champs de texte affichent les informations saisies.
+        Le mécanicien a saisi le matricule et les détails du rapport d'intervention dans cette interface. Les champs de texte affichent les informations saisies.
     \end{minipage}
     \hfill
     \begin{minipage}{0.39\textwidth}
         \centering
-        \includegraphics[width=0.7\textwidth,height=5.6cm]{chap5.images/r2.png}
+        \includegraphics[width=0.7\textwidth,height=5.6cm]{chap5.images/r22.png}
         \caption{\centering Géneration de Rapport - Détails Entrés }
     \end{minipage}
 \end{figure}
@@ -416,12 +417,12 @@ L'interface web est principalement destinée au chef d'équipe et permet de cons
     \centering
     \begin{minipage}{0.58\textwidth}
         \raggedright
-        Cette interface affiche le rapport sauvegardé avec le matricule et les détails du rapport. Les champs pour entrer un nouveau rapport sont toujours accessibles, ainsi que les boutons pour importer une image ou sauvegarder.
+        Cette interface affiche le rapport sauvegardé avec le matricule, les détails du problème initial et le travail effectué.
     \end{minipage}
     \hfill
     \begin{minipage}{0.39\textwidth}
         \centering
-        \includegraphics[width=0.7\textwidth,height=5.6cm]{chap5.images/r3.png}
+        \includegraphics[width=0.7\textwidth,height=5.6cm]{chap5.images/r33.png}
         \caption{\centering Géneration de Rapport - Rapport Sauvegardé }
     \end{minipage}
 \end{figure}
@@ -497,4 +498,3 @@ Nous présentons ci-dessous le code source et le résultat de deux cas de test :
 
 
 
-\end{document}
